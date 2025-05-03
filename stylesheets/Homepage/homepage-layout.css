@@ -159,7 +159,7 @@ div.HomePage-Introduction-Page div.HomePage-Introduction-Page-BG {
 
     background-image:
     linear-gradient(90deg, rgba(46, 45, 45, 0.85), rgba(124, 118, 118, 0.5)),
-    url("/images-HomePage/HomePage-Introduction-Page-BG.jpg");
+    url("images-HomePage/HomePage-Introduction-Page-BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -226,7 +226,7 @@ div.HomePage-Summary-BackGround {
     height: 100vh;
     width: 100vw;
 
-    background-image: url("/images-HomePage/HomePage-Summary-BG.jpg");
+    background-image: url("images-HomePage/HomePage-Summary-BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -271,7 +271,7 @@ div.HomePage-Summary div.HomePage-Summary-Box1 {
     border-color: #00c4e2a7;
     border-width: 2px;
 
-    background-image: url("/images-HomePage/HomePage-Summary-Economy.png");
+    background-image: url("images-HomePage/HomePage-Summary-Economy.png");
     background-repeat: no-repeat;
     background-position: 1.5vw 6vh;
     background-size: 17vw 26vh;
@@ -303,7 +303,7 @@ div.HomePage-Summary div.HomePage-Summary-Box2 {
     border-color: #00c4e2a7;
     border-width: 2px;
 
-    background-image: url("/images-HomePage/HomePage-Summary-Health.png");
+    background-image: url("images-HomePage/HomePage-Summary-Health.png");
     background-repeat: no-repeat;
     background-position: 2.5vw 6vh;
     background-size: 15vw 25vh;
@@ -336,7 +336,7 @@ div.HomePage-Summary div.HomePage-Summary-Box3 {
     border-color: #00c4e2a7;
     border-width: 2px;
 
-    background-image: url("/images-HomePage/HomePage-Summary-Rising-Sea-Levels.webp");
+    background-image: url("images-HomePage/HomePage-Summary-Rising-Sea-Levels.webp");
     background-repeat: no-repeat;
     background-position: 1vw 6vh;
     background-size: 18vw 27vh;
@@ -369,7 +369,7 @@ div.HomePage-Summary div.HomePage-Summary-Box4 {
     border-color: #00c4e2a7;
     border-width: 2px;
 
-    background-image: url("/images-HomePage/HomePage-Summary-Global-Warming.jpeg");
+    background-image: url("images-HomePage/HomePage-Summary-Global-Warming.jpeg");
     background-repeat: no-repeat;
     background-position: 1vw 6vh;
     background-size: 18vw 21vh;
@@ -425,7 +425,7 @@ div.HomePage-Climate-Change div.HomePage-Climate-Change-Header-Image {
     border-bottom-style: solid;
     border-color: #f5ecff;
 
-    background-image: url("/images-HomePage/HomePage-Global-Warming-Banner.jpg");
+    background-image: url("images-HomePage/HomePage-Global-Warming-Banner.jpg");
     background-repeat: no-repeat;
     background-position: 30% 20%;
 
@@ -581,7 +581,7 @@ div.HomePage-Rising-Sea-Banner {
     width: 100vw;
     height: 30vh;
 
-    background-image: url("/images-HomePage/HomePage-Rising-Sea-Sea.webp");
+    background-image: url("images-HomePage/HomePage-Rising-Sea-Sea.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw 150vh;
@@ -640,7 +640,7 @@ div.HomePage-Rising-Sea div.HomePage-Rising-Sea-Header-Image {
     height: 99vh;
     width: 75vw;
 
-    background-image: url("/images-HomePage/HomePage-Rising-Sea-Intro-Bg.jpg");
+    background-image: url("images-HomePage/HomePage-Rising-Sea-Intro-Bg.jpg");
     background-size: 90vw 99vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -794,7 +794,7 @@ div.HomePage-Health-Bg {
 
     box-shadow: 2px 2px 10px gray;
 
-    background-image: url("/images-HomePage/HomePage-Health-BG.jpg");
+    background-image: url("images-HomePage/HomePage-Health-BG.jpg");
     background-attachment: fixed;
     background-size: 80vh 90vw;
     background-size: cover;
@@ -982,7 +982,7 @@ div.HomePage-Economy div.HomePage-Economy-Bg {
 
     box-shadow: 2px 2px 20px whitesmoke;
 
-    background-image: url("/images-HomePage/HomePage-Economy-BG.jpeg");
+    background-image: url("images-HomePage/HomePage-Economy-BG.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1124,7 +1124,7 @@ div.HomePage-Introduction-Of-SDG-BG {
 
     background-image: 
     radial-gradient(circle,rgba(0, 0, 0, 0.223) 30%, rgba(0, 0, 0, 0.412) 60%, rgba(0, 0, 0, 0.642) 100%),
-    url("/images-HomePage/HomePage-Introduction-Of-SDG-BG.png");
+    url("images-HomePage/HomePage-Introduction-Of-SDG-BG.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1301,7 +1301,7 @@ div.HomePage-Implementation-Of-SDG-BG {
     width: 100%;
 
     background-image:  linear-gradient(90deg, rgb(32, 31, 31), rgba(50, 48, 48, 0.704),rgba(124, 118, 118, 0.5)),
-    url("/images-HomePage/HomePage-Implementation-BG.jpg");
+    url("images-HomePage/HomePage-Implementation-BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
