@@ -1,0 +1,686 @@
+@charset "UTF-8";
+/*
+Ordered from top to bottom of page
+
+Keywords:
+1. Landing-Content
+2. Introduction-Content
+3. List-Content
+
+To search use: "Keyword: (keyword)"
+*/
+
+
+/* 
+=================================
+The Navigation Bar
+=================================
+*/
+
+/* HAMBURGER DROPDOWN MENU */
+
+div.Hamburger > button.NavBar-Top-Hamburger {
+
+    left: 5px;
+    position: absolute;
+    background-size: 40px 35px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    width: 40px;
+    height: 55px;
+
+    border-style: none;
+
+    background-image: url("/images-About/hamburger.png");
+    background-position: center;
+}
+
+/*If not hover dropdown menu will not show*/
+
+div.Hamburger nav.NavBar-Top-List {
+
+    position: absolute;
+    display: block;
+    left: -15vw;
+    margin-top: 55px;
+    height: calc(100vh - 60px);
+    width: 14vw;
+
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: rgba(215, 209, 209, 0.87);
+    border-width: 2px;
+
+    z-index: 2;
+
+}
+
+div.Hamburger nav.NavBar-Top-List div.NavBar-Image {
+
+    display: block;
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 25vh;
+
+    background-image: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.381)),
+    url("/images-Aspirations/Aspirations-SideBar-My-Goals.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14vw 25vh;
+
+    align-content: center;
+}
+
+div.Hamburger nav.NavBar-Top-List div.NavBar-Image h1 {
+
+    text-align: center;
+    color: #f5ecff;
+
+    text-shadow: 1px 1px 10px black;
+
+    font-size: 2vw;
+}
+
+@keyframes hamburger-show {
+
+    from {
+        filter: opacity(5%);
+        left: -14vw;
+        background-color: rgba(0,0,0,0);
+    }
+    to {
+        filter: opacity(100%);
+        left: 0px;
+        background-color: rgba(38, 38, 42, 0.939);
+    }
+    
+}
+
+div.Hamburger:hover > button.NavBar-Top-Hamburger {
+
+    background-image: url("/images-About/down.png");
+    background-repeat: no-repeat;
+
+}
+
+/* If hover will show list*/
+div.Hamburger:hover nav.NavBar-Top-List {
+
+    animation-name: hamburger-show;
+    animation-duration: 0.65s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.05s;
+
+}
+
+/* Hambuger Content*/
+a.NavBar-Top {
+
+    display: block;
+    position: relative;
+    margin-top: 1px;
+    text-decoration-line: none;
+    left: 0vw;
+
+    width: 14vw;
+    height: 80px;
+
+    color: #c1c0c5;
+    background-color: rgba(38, 38, 42, 0.778);
+
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-top-color:rgba(247, 221, 140, 0.3);
+    border-bottom-color: rgba(247, 221, 140, 0.3);
+    border-left-color:rgba(12, 12, 36, 0.3);
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    overflow-x: hidden;
+
+}
+
+a.NavBar-Top:hover {
+
+    background-color: rgba(243, 155, 111, 0.65);
+    color: gold;
+}
+/*=====================================*/
+/* Images */
+
+/* United Nations */
+/* Creates a block to hold the UN icon and text*/
+
+div.UN-Image-Link {
+
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw;
+
+    top: 3px;
+    left: 6vw;
+    height: 45px;
+    width: 16vw;
+
+    overflow: hidden;
+    
+    background-image: url("/images-About/UN-Logo.webp");
+    background-size: 65px 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+
+    filter: brightness(180%);
+
+}
+
+div.UN-Image-Link a {
+
+    display: block;
+    height: 45px;
+    width: 15.5vw;
+
+    text-decoration: none;
+    color: rgba(92, 150, 238, 0.813);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: end;
+    align-content: center;
+    overflow: hidden;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Sdg Image Icon */
+
+div.SDG-Image-Link {
+
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw;
+    
+    left: 27vw;
+    height: 55px;
+    width: 8vw;
+
+    background-image: url("/images-About/sdg.webp");
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+
+    overflow: hidden;
+
+}
+
+div.SDG-Image-Link a {
+
+    display: block;
+    position: absolute;
+
+    height: 55px;
+    width: 7vw;
+
+    text-decoration: none;
+
+    color: rgba(85, 237, 146, 0.813);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: end;
+
+    align-content: center;
+    overflow: hidden;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*=====================================*/
+/* Rotating Earth */
+
+@keyframes spinning-earth {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+div.Rotating-Earth {
+
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    top: 7.5px;
+    left: 43vw;
+
+    background-image: url("/images-About/earth.png");
+    background-repeat: no-repeat;
+    filter: opacity(80%);
+    background-size: 70px 40px;
+    background-position: center;
+
+    animation-name: spinning-earth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    overflow: hidden;
+
+    z-index: 1;
+
+}
+
+/*The nav bar (Right-side)*/
+
+div.NavBar-Right a {
+
+    position: relative;
+    display: block;
+    float: left;
+    left : 51vw;
+    width: 12vw;
+    height: 55px;
+
+    text-align: center;
+    align-content: center;
+
+    text-decoration: none;
+    color: #c1c0c5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+
+    overflow-y: hidden;
+
+}
+
+div.NavBar-Right a {
+
+    border-style: none;
+    border-left-style: inset;
+    background-color: rgba(0,0,0,0);
+
+}
+
+div.NavBar-Right a:hover {
+
+    text-decoration-line: underline;
+    background-color: rgba(123, 125, 125, 0.65);
+
+}
+
+div.NavBar-Right a.onAspirations {
+
+    background-color: rgb(44, 78, 4);
+
+}
+
+div.NavBar-Right a.onAspirations:hover {
+
+    text-decoration-line: underline;
+    background-color: rgba(95, 168, 12, 0.888);
+
+}
+
+/*
+=================================================
+    Landing Page (Keyword: Landing-Content)
+=================================================
+*/
+
+div.Aspirations-Landing-Page-BG-TextBox h1 {
+
+    color: #f5ecff;
+    font-size: 2.4vw;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+
+    text-decoration: underline 2px white;
+    text-shadow: 1px 1px 10px black;
+
+}
+
+div.Aspirations-Landing-Page-BG-TextBox p {
+
+    color: #f5ecff;
+    font-size: 1.5vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    text-shadow: 0.5px 0.5px 7px black;
+}
+
+div.Aspirations-Landing-Page-BG-Container a.Continue-Down {
+
+    display: block;
+    position: absolute;
+
+    color: #f5ecff;
+
+    text-decoration: none;
+
+    bottom: 3vh;
+    left: 47vw;
+
+    width: 8vw;
+    height: 3vh;
+
+    font-size: 1vw;
+
+    text-align: center;
+
+}
+
+div.Aspirations-Landing-Page-BG-Container a:hover.Continue-Down {
+
+    text-decoration: underline 0.5px white;
+    text-shadow: 1px 1px 5px whitesmoke;
+}
+
+/*
+=============================================================
+   Aspirations Introduction (Keyword: Introdcution-Content)
+=============================================================
+*/
+
+div.Aspirations-Introduction-Page-TextBox div.column1-row1 h1 {
+
+    color: #f5ecff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 3vw;
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column2-row1 p {
+
+    color: #f5ecff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5vw;
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column2-row2 a {
+
+    display: block;
+    position: relative;
+
+    color: yellow;
+
+    height: 7vh;
+    width: 12vw;
+
+    top: 30%;
+    left: 65%;
+
+    background-color: rgb(194, 52, 45);
+
+    border-color: #e3cb18;
+    border-style: ridge;
+
+    align-content: center;
+    text-align: center;
+
+    font-size: 1.75vw;
+
+    text-decoration: none;
+
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column2-row2 a:hover {
+
+    text-decoration: underline;
+    background-color: rgb(246, 78, 69);
+    transform: skewX(-2.5deg) skewY(0.75deg);
+}
+
+/*
+=================================================
+        Aspirations List (Keyword: List-Content)
+=================================================
+*/
+div.Aspirations-List-Page-TextBox img {
+    position: relative;
+
+    top: 3%;
+    left: 3%;
+
+    width: 90%;
+    height: 90%;
+
+    border-style: solid;
+    border-radius: 50%;
+    border-color: green;
+    border-width: 5px;
+}
+
+div.Aspirations-List-Page-TextBox p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5ecff;
+    font-size: 1.5vw;
+    padding-left: 5px;
+}
+
+div.Aspirations-List-Page-TextBox ul {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5ecff;
+    font-size: 1.5vw;
+}
+
+div.Aspirations-List-Page-TextBox h1 {
+
+    font-size: 2vw;
+    color: #f5ecff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-decoration: underline 2px white;
+    text-decoration-skip-ink: none;
+}
+/* 
+==============================
+            Footer 
+==============================
+*/
+
+footer div.column1-row1 p.Credits {
+
+    text-align: center;
+    margin-top: 0px;
+
+    font-size: 1.25vw;
+
+    text-decoration: underline 0.5px whitesmoke;
+}
+
+footer div.column1-row1 div.Footer-Logo {
+
+    display: block;
+
+    position: absolute;
+    align-self: center;
+
+    width: 210px;
+    height: 60px;
+
+    left: calc(50% - 105px);
+    top: 5vh;
+
+}
+
+footer div.column1-row1 img.Footer-SDG-Logo {
+
+    display: block;
+    position: absolute;
+
+    left: 0px;
+
+    height: 60px;
+    width: 60px;
+}
+
+footer div.column1-row1 img.Footer-UN-Logo {
+
+    display: block;
+    position: absolute;
+    
+    left: 65px;
+
+    height: 60px;
+    width: 80px;
+
+    filter: brightness(180%);
+}
+
+footer div.column1-row1 img.Footer-SP-Logo {
+
+    display: block;
+    position: absolute;
+    
+    left: 150px;
+
+    height: 60px;
+    width: 60px;
+}
+
+footer div.column1-row1 p.Bottom-Text {
+
+    display: block;
+    position: relative;
+
+    top: 6vh;
+    left: 33%;
+
+    font-size: 2vw;
+    color: #00c89b;
+
+    height: fit-content;
+    width: fit-content;
+
+    text-align: center;
+
+}
+
+footer div.column1-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column1-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column1-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column2-row2 span.mail {
+
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    color: #f5ecff;
+    text-shadow: 0.5px 0.5px 10px whitesmoke;
+    font-size: 1.5vw;
+
+}
+
+footer div.column2-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column2-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column2-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column2-row2 span.phone {
+
+    display: inline-block;
+    color: #f5ecff;
+    text-shadow: 0.5px 0.5px 10px whitesmoke;
+
+}
+
+footer div.column2-row2 img.Instagram-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+
+    top: -3px;
+}
+
+footer div.column2-row2 img.FB-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 45px;
+
+    top: 0px;
+    margin-left: -8px;
+}
+
+footer div.column2-row2 img.Twitter-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 50px;
+
+    margin-left: -8px;
+
+    top: -3px;
+}
+
+footer div.column3-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column3-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column3-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column3-row2 span.Home,span.Trophy {
+
+    display: inline-block;
+}

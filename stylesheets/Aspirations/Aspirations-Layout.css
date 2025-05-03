@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+/*
+Ordered from top to bottom of page
+
+Keywords:
+1. Landing-Layout
+2. Introduction-Layout
+3. List-Layout
+
+To search use: "Keyword: (keyword)"
+*/
+
+html {
+    /*Removes scrollbar at the bottom (Horizontal)*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+div.Wrapper {
+    position: absolute;
+
+    left: 0px;
+    top: 45px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    scrollbar-color: #404040b3 #979797;
+    scrollbar-width: thin;
+}
+
+a.reference {
+
+    position: relative;
+    color:#b3c2e9;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+a.reference:hover {
+
+    color: #60e0f9;
+    text-decoration: underline 2.5px;
+}
+
+/* Nav Bar*/
+div.NavBar-Top {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 55px;
+    width: calc(100vw - 5px);
+    background-color: rgb(0, 0, 0);
+
+    border-style: solid;
+    border-color: #c1c0c5;
+    border-width: 2px;
+
+    box-shadow: 1px 1px 20px black;
+
+    vertical-align: middle;
+    align-content: center;
+
+    z-index: 100;
+}
+
+/* 
+=============================================
+       Landing Page (Keyword: Landing-Layout)
+=============================================
+*/
+
+div.Aspirations-Landing-Page-BG {
+
+    display: block;
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.569)),
+    url("/images-Aspirations/Aspirations-Landing-Page-Bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    filter: brightness(90%) blur(2px);
+}
+
+div.Aspirations-Landing-Page-BG-Container {
+
+    display: block;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+
+    height: calc(100vh - 55px);
+    width: 100vw;
+
+}
+
+div.Aspirations-Landing-Page-BG-TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 12vh;
+    left: 33.5vw;
+
+    height: 40vh;
+    width: 35vw;
+}
+
+/* 
+================================================================
+    Aspirations Introduction Page (Keyword: Introduction-Layout)
+=================================================================
+*/
+
+div.Aspirations-Introduction-Page {
+
+    position: absolute;
+    display: block;
+
+    top: 100vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.Aspirations-Introduction-Page div.Aspirations-Introduction-Page-TextBox {
+
+    position: absolute;
+    display: grid;
+
+    top: 10vh;
+    left: 5vw;
+
+    height: 65vh;
+    width: 90vw;
+
+    border-style: solid;
+    border-color: #f5ecff;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70% 30%;
+
+    background-color: rgb(44, 78, 4);
+    padding: 10px;
+
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column1-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column2-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+div.Aspirations-Introduction-Page-TextBox div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+/*
+===================================================
+       Aspirations List (Keyword: List-Layout)
+=====================================================
+*/
+
+div.Aspirations-List-Page {
+
+    display: block;
+    position: absolute;
+
+    top: 200vh;
+    left: 0px;
+
+    height: 250vh;
+    width: 100vw;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.Aspirations-List-Page-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    top: 10vh;
+    left: 10vw;
+
+    height: 200vh;
+    width: 80vw;
+
+    grid-template-columns: 25% 70%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    
+    grid-column-gap: 5%;
+
+}
+
+div.Aspirations-List-Page-TextBox div.column1-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+div.Aspirations-List-Page-TextBox div.column1-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+div.Aspirations-List-Page-TextBox div.column1-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+div.Aspirations-List-Page-TextBox div.column1-row4 {
+
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+
+}
+
+div.Aspirations-List-Page-TextBox div.column1-row5 {
+
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+}
+
+div.Aspirations-List-Page-TextBox div.column2-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+    border-width: 1px;
+    
+}
+
+div.Aspirations-List-Page-TextBox div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+    border-width: 1px;
+
+}
+
+div.Aspirations-List-Page-TextBox div.column2-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+    border-width: 1px;
+
+    
+}
+
+div.Aspirations-List-Page-TextBox div.column2-row4 {
+
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+    border-width: 1px;
+    
+}
+
+div.Aspirations-List-Page-TextBox div.column2-row5 {
+
+    grid-row: 5 / 6;
+    grid-column: 2 / 3;
+
+    border-top-style: solid;
+    border-color: #f5ecff;
+    border-width: 1px;
+    
+}
+
+/*
+==============================
+            Footer
+==============================
+*/
+footer {
+
+    display: grid;
+    position: absolute;
+
+    height: 70vh;
+    width: 100vw;
+
+    top: 450vh;
+    left: 0vw;
+
+    background-image: linear-gradient(180deg, rgb(0,0,0),rgb(22, 20, 20), rgb(32, 31, 31));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-top-color: #3dc7f1;
+    border-top-style: ridge;
+    border-width: 4px;
+
+    color: #f5ecff;
+
+    grid-template-rows: 35% 60%;
+    grid-template-columns: 30% 30% 30%;
+
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+footer div.column1-row1 {
+
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    border-bottom-style: ridge;
+    border-width: 2px;
+    border-bottom-color: #f5ecff;
+
+    overflow: auto;
+
+}
+
+footer div.column1-row2 {
+
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    overflow: auto;
+
+}
+footer div.column2-row2 {
+
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    overflow: auto;
+
+}
+
+footer div.column3-row2 {
+
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+    overflow: auto;
+
+}
+

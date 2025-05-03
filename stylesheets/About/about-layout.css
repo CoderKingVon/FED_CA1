@@ -1,0 +1,1324 @@
+@charset "UTF-8";
+/*
+Ordered from top to bottom of page
+
+Keywords:
+1. Landing-Layout
+2. Introduction-Layout
+3. Values-Layout
+4. Interest-Overview-Layout
+5. Interest-Description-Layout
+6. Personality-Layout
+
+To search use: "Keyword: (keyword)"
+*/
+html {
+    /*Removes scrollbar at the bottom (Horizontal)*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+div.Wrapper {
+    position: absolute;
+
+    left: 0px;
+    top: 55px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    scrollbar-color: #404040b3 #979797 ;
+    scrollbar-width: thin;
+
+}
+
+a.reference {
+
+    position: relative;
+    color:#b3c2e9;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+a.reference:hover {
+
+    color: #60e0f9;
+    text-decoration: underline 2.5px;
+}
+
+/* Nav Bar*/
+
+div.NavBar-Top {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 55px;
+    width: calc(100vw - 5px);
+    background-color: rgb(0, 0, 0);
+
+    border-style: solid;
+    border-color: #c1c0c5;
+    border-width: 2px;
+
+    box-shadow: 1px 1px 20px black;
+
+    vertical-align: middle;
+    align-content: center;
+
+    z-index: 100;
+}
+/*
+=======================================================
+    About Me Landing Page (Keyword: Landing-Layout)
+=======================================================
+*/
+
+div.About-Landing-Page {
+
+    display: block;
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100vw;
+    height: calc(100vh - 55px);
+}
+
+div.About-Landing-Page-BG {
+
+    display: block;
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(90deg, rgba(59, 57, 57, 0.583),rgba(46, 44, 44, 0.737), rgba(67, 61, 61, 0.441)), url("/images-About/About-Landing-Page-BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    filter: blur(6px) brightness(70%); 
+
+    z-index: -1;
+}
+
+div.About-Landing-Page div.About-Landing-Page-TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 20vh;
+    left: 32.5vw;
+
+    height: 50vh;
+    width: 35vw;
+
+    z-index: 1;
+}
+/*
+=============================================================
+    About Me Introduction Page (Keyword: Introduction-Layout)
+=============================================================
+*/
+
+div.About-Introduction-Page {
+
+    display: block;
+    position: absolute;
+
+    top: calc(100vh - 55px);
+    left: 0px;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-ImageBox {
+
+    display: block;
+    position: absolute;
+
+    top: 0px;
+    left: 14vw;
+
+    width: 23vw;
+    height: 100%;
+
+    filter: brightness(90%);
+
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    top: 0vh;
+    right: 12.5vw;
+
+    width: 40vw;
+    height: 100%;
+
+    grid-template-rows: 15% 70%;
+    grid-template-columns: 100%;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox div.row1 {
+
+    grid-row: 1 / 2;
+    align-content: center;
+    text-align: left;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox div.row2 {
+
+    grid-row: 2 / 3;
+    text-align: left;
+
+}
+
+
+/*
+=================================================
+        My Values (Keyword: Values-Layout)
+==================================================
+*/
+
+div.About-My-Values {
+
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(200vh - 60px);
+    left: 0vw;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.About-My-Values-Container {
+
+    display: grid;
+    position: absolute;
+
+    height: 85vh;
+    width: 90vw;
+
+    top: calc(205vh - 55px);
+    left: 5vw;
+
+    color: #f5ecff;
+
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 35% 20% 20% 20%;
+    justify-content: space-between;
+
+}
+
+div.About-My-Values-Container div.column1 {
+
+    grid-row: 1/3;
+    grid-column: 1/2;
+
+    border-style: solid;
+    align-content: center;
+
+    background-color: #3b3e44;
+
+}
+
+div.About-My-Values-Container div:hover.column1 {
+
+    box-shadow: 1px 1px 20px white;
+}
+
+
+div.About-My-Values-Container div.column2-row1 {
+
+    grid-row: 1/2;
+    grid-column: 2/3;
+
+    border-color: #60e0f9;;
+    border-style: solid;
+    border-bottom-style: none;
+
+    background-color: white;
+
+}
+
+div.About-My-Values-Container div.column3-row1 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+
+    border-color: #60e0f9;
+    border-style: solid;
+    border-bottom-style: none;
+    
+    background-color: white;
+}
+
+div.About-My-Values-Container div.column4-row1 {
+
+    grid-row: 1/2;
+    grid-column: 4/5;
+
+    border-color: #60e0f9;
+    border-style: solid;
+    border-bottom-style: none;
+    
+    background-color: white;
+}
+
+div.About-My-Values-Container div.column2-row2 {
+
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    border-color: #f5ecff;
+    border-style: solid;
+
+    background-color: rgb(44, 78, 4);
+
+    overflow: hidden;
+
+}
+
+div.About-My-Values-Container div:hover.column2-row2 {
+
+    box-shadow: 1px 1px 20px white;
+}
+
+div.About-My-Values-Container div.column3-row2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+    border-color: #f5ecff;
+    border-style: solid;
+
+    background-color: rgb(44, 78, 4);
+
+}
+
+div.About-My-Values-Container div:hover.column3-row2 {
+
+    box-shadow: 1px 1px 20px white;
+}
+
+div.About-My-Values-Container div.column4-row2 {
+
+    grid-row: 2/3;
+    grid-column: 4/5;
+
+    border-color: #f5ecff;
+    border-style: solid;
+
+    background-color: rgb(44, 78, 4);
+
+}
+
+div.About-My-Values-Container div:hover.column4-row2 {
+
+    box-shadow: 1px 1px 20px white;
+}
+
+/* 
+====================================================
+    My Interests (Keyword: Interest-Overview-Layout)
+====================================================
+*/
+
+div.About-My-Interests-BG {
+    position: absolute;
+    display: block;
+
+    height: 151vh;
+    width: 100vw;
+
+    top: calc(300vh - 65px);
+    left: 0vw;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: rgb(87, 133, 203);
+
+    color: #cb7a55;
+
+}
+
+div.About-My-Interests-TextBox {
+
+    position: absolute;
+    display: block;
+
+    height: 82vh;
+    width: 40vw;
+
+    top: calc(305vh - 55px);
+    left: 7vw;
+
+    text-align: center;
+    align-content: center;
+
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-radius: 60px;
+
+    background-color: rgb(44, 78, 4);
+
+}
+
+div:hover.About-My-Interests-TextBox {
+    box-shadow: 2px 2px 20px white;
+}
+
+/*For Images */
+div.About-My-Interests-Container {
+
+    display: grid;
+    position: absolute;
+
+    top: calc(305vh - 55px);
+    left: 50vw;
+
+    width: 38vw;
+    height: 38vw;
+
+    grid-template-columns: 12.6vw 12.6vw 12.6vw;
+    grid-template-rows: 12.6vw 12.6vw 12.6vw;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+    filter: brightness(57%) opacity(80%) blur(1.5px);
+
+}
+
+div.About-My-Interests-Container div.column1-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    background-image: url("/images-About/About-My-Interests-Programming.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.About-My-Interests-Container div.column2-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+
+    background-image: url("/images-About/About-My-Interests-Gaming.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.About-My-Interests-Container div.column3-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+
+    background-image: url("/images-About/About-My-Interests-Physics.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.About-My-Interests-Container div.column1-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+
+    background-image: url("/images-About/About-My-Interests-Volunteering.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.About-My-Interests-Container div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    background-color: rgb(220, 216, 216);
+}
+
+div.About-My-Interests-Container div.column3-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+
+    background-image: url("/images-About/About-My-Interests-Chemistry.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.About-My-Interests-Container div.column1-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    background-image: url("/images-About/About-My-Interests-Chess.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.About-My-Interests-Container div.column2-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    background-image: url("/images-About/About-My-Interests-Cooking.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.About-My-Interests-Container div.column3-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+
+    background-image: url("/images-About/About-My-Interests-Writing.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*For Text*/
+div.About-My-Interests-Container-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    top: calc(305vh - 55px);
+    left: 50vw;
+
+    width: 38vw;
+    height: 38vw;
+
+    grid-template-columns: 12.6vw 12.6vw 12.6vw;
+    grid-template-rows: 12.6vw 12.6vw 12.6vw;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+    border-style: ridge;
+    border-width: 6px;
+    border-color: rgb(156, 160, 162);
+
+    color: #f5ecff;
+
+    box-shadow: 2px 2px 15px gray;
+
+    text-align: center;
+
+
+}
+
+div.About-My-Interests-Container-TextBox div.column1-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column1-row1 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column2-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column2-row1 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column3-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column3-row1 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column1-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column1-row2 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+
+    background-image: url("/images-About/About-My-Interests-Thinking-Person.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column2-row2 {
+
+    border-color: rgb(73, 230, 238);
+
+    box-shadow: 1px 1px 10px rgb(82, 195, 217);
+}
+
+div.About-My-Interests-Container-TextBox div.column3-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column3-row2 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column1-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column1-row3 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column2-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column2-row3 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+div.About-My-Interests-Container-TextBox div.column3-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+
+    align-content: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f5ecff;
+}
+
+div.About-My-Interests-Container-TextBox div:hover.column3-row3 {
+
+    border-color: rgb(15, 223, 29);
+
+    box-shadow: 1px 1px 10px greenyellow;
+}
+
+/*
+==================================================================
+        Interests (Keyword: Interest-Description-Layout)
+===================================================================
+*/
+
+/* Programming*/
+
+div.About-My-Interests2 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(450vh - 55px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.798), rgba(35, 34, 34, 0.339)),
+    url("/images-About/About-My-Interests-Programming-BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #60e0f9;
+    border-width: 2px;
+
+}
+
+div.About-My-Interests2 div.Programming-Image {
+
+    position: absolute;
+    display: block;
+
+    top: 3vh;
+    right: 25vw;
+
+    height: 56vh;
+    width: 56vh;
+
+    border-style: solid;
+    border-color: white;
+
+    background-image: url("/images-About/About-My-Interests-Programming-Java-Icon.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    z-index: 1;
+}
+
+div.About-My-Interests2 div.Programming-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 33vh;
+    right: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: gray;
+    border-style: solid;
+
+    z-index: 2;
+
+    background-color: rgb(62, 160, 190);
+
+}
+
+div.About-My-Interests2 div:hover.Programming-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(62, 160, 190);
+}
+
+/* Gaming */
+
+div.About-My-Interests3 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(550vh - 53px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Gaming-BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #62ab64;
+    border-width: 2px;
+
+}
+
+div.About-My-Interests3 div.Gaming-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 33vh;
+    left: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 2;
+
+    background-color: rgb(95, 154, 121);
+
+}
+
+div.About-My-Interests3 div:hover.Gaming-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(95, 154, 121);
+}
+
+/* Physics */
+
+div.About-My-Interests4 {
+
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(650vh - 52px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Physics-BG.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #3a663c;
+    border-width: 3px;
+
+}
+
+div.About-My-Interests4 div.Physics-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 40vh;
+    left: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 2;
+
+    background-color: rgb(38, 128, 47);
+
+}
+
+div.About-My-Interests4 div:hover.Physics-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(38, 128, 47);
+}
+
+
+
+/* Chemistry */
+div.About-My-Interests5 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(750vh - 50px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Chemistry-BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #d65cc2;
+    border-width: 2px;
+
+}
+
+div.About-My-Interests5 div.Chemistry-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 36vh;
+    left: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 1;
+
+    background-color: rgb(194, 105, 158);
+
+}
+
+div.About-My-Interests5 div:hover.Chemistry-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(194, 105, 158);
+}
+
+/* Writing */
+
+div.About-My-Interests6 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(850vh - 49px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Writing-BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #4d7d79;
+    border-width: 2px;
+
+}
+
+div.About-My-Interests6 div.Writing-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 36vh;
+    right: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 1;
+
+    background-color: rgb(76, 134, 127);
+
+}
+
+
+div.About-My-Interests6 div:hover.Writing-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(76, 134, 127);
+}
+
+/* Cooking */
+
+div.About-My-Interests7 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(950vh - 48px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Cooking-BG.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #457c9a;
+    border-width: 2px;
+
+}
+
+div.About-My-Interests7 div.Cooking-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 36vh;
+    right: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 1;
+
+    background-color: rgb(59, 122, 156);
+
+}
+
+div.About-My-Interests7 div:hover.Cooking-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(59, 122, 156);
+}
+
+
+/* Chess */
+
+div.About-My-Interests8 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(1050vh - 47px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Chess-BG.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    border-bottom-style: solid;
+    border-color: #894f84;
+    border-width: 3px;
+
+}
+
+div.About-My-Interests8 div.Chess-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 36vh;
+    left: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 1;
+
+    background-color: rgb(159, 76, 116);
+
+}
+
+div.About-My-Interests8 div:hover.Chess-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(159, 76, 116);
+}
+
+
+
+/* Volunteering */
+
+div.About-My-Interests9 {
+    position: absolute;
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+
+    top: calc(1150vh - 45px);
+    left: 0vw;
+
+    background-image: 
+    linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
+    url("/images-About/About-My-Interests-Volunteering-BG.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+    border-bottom-style: solid;
+    border-color: #8a8e33;
+    border-width: 5px;
+
+}
+
+div.About-My-Interests9 div.Volunteering-TextBox {
+
+    position: absolute;
+    display: block;
+
+    top: 36vh;
+    right: 2vw;
+
+    height: 58vh;
+    width: 58vh;
+
+    border-color: rgb(48, 47, 47);
+    border-style: solid;
+
+    z-index: 1;
+
+    background-color: rgb(150, 150, 50);
+
+}
+
+div.About-My-Interests9 div:hover.Volunteering-TextBox {
+
+    box-shadow: 1px 1px 20px rgb(150, 150, 50);
+}
+
+/* 
+==================================================
+    Personality (Keyword: Personality-Layout)
+==================================================
+*/
+
+div.About-My-Personality-Page {
+
+    display: block;
+    position: absolute;
+
+    top: calc(1250vh - 42px);
+    left: 0px;
+
+    width: 100vw;
+    height: 190vh;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.About-My-Personality-Page div.About-My-Personality-Container {
+
+    display: grid;
+    position: absolute;
+
+    top: 5vh;
+    left: 12.5vw;
+
+    width: 75vw;
+    height: 150vh;
+
+    grid-template-rows: 5% 28% 28% 28%;
+    grid-template-columns: 50% 50%;
+
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+div.About-My-Personality-Container div.column1-3-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: span 3;
+}
+
+div.About-My-Personality-Container div.column1-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+
+}
+
+div.About-My-Personality-Container div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+
+}
+
+div.About-My-Personality-Container div.column1-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+
+}
+
+div.About-My-Personality-Container div.column2-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+
+div.About-My-Personality-Container div.column1-row4 {
+
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+}
+
+div.About-My-Personality-Container div.column2-row4 {
+
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+}
+
+/*
+======================
+        Footer
+======================
+*/
+
+footer {
+
+    display: grid;
+    position: absolute;
+
+    height: 70vh;
+    width: 100vw;
+
+    top: calc(1415vh - 42px);
+    left: 0vw;
+
+    background-image: linear-gradient(180deg, rgb(0,0,0),rgb(22, 20, 20), rgb(32, 31, 31));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-top-color: #3dc7f1;
+    border-top-style: ridge;
+    border-width: 4px;
+
+    color: #f5ecff;
+
+    grid-template-rows: 35% 60%;
+    grid-template-columns: 30% 30% 30%;
+
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+footer div.column1-row1 {
+
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    border-bottom-style: ridge;
+    border-width: 2px;
+    border-bottom-color: #f5ecff;
+
+    overflow: auto;
+
+}
+
+footer div.column1-row2 {
+
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    overflow: auto;
+
+}
+footer div.column2-row2 {
+
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    overflow: auto;
+
+}
+
+footer div.column3-row2 {
+
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+    overflow: auto;
+
+}

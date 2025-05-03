@@ -1,0 +1,258 @@
+Link Used to Remove Background:
+
+HomePage Favicon
+=================
+images-About/About-FavIcon.png: https://cdn-icons-png.flaticon.com/512/25/25694.png
+
+NavBar
+==================
+
+Hamburger icon: 
+images-About/hamburger.png: https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png
+
+Down icon:
+images-About/down.png: https://t3.ftcdn.net/jpg/04/83/39/12/360_F_483391217_rDo0Gdjp71zXabPRjeaE1O3I85R6nIgB.jpg
+
+UN icon:
+images-About/UN-Logo.webp: https://sdgs.un.org/themes/custom/porto/assets/images/logo-en.svg\
+
+SDG icon:
+images-About/sdg.webp: https://gef.eu/wp-content/uploads/2019/02/GEF_SDGs_icon1-1.jpg
+
+Earth:
+images-About/earth.png: https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg
+
+Landing Page
+==========================
+SDG Logo:
+images-HomePage/SDG-Logo.png: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sustainable_Development_Goals_-_logo.svg/2048px-Sustainable_Development_Goals_-_logo.svg.png
+
+Introduction Page
+====================
+BG: images-HomePage/HomePage-Introduction-Page-BG.jpg: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWZKjrL49DYz-DHcRRZsv6FWDu6z1IDCtAAdJUq4tKJeFeSGFR
+
+
+HomePage Summary
+==========================
+BG:
+images-HomePage/HomePage-Summary-BG.jpg: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQT08cXgSPB_Yn4SMPyPDNYCks8-ibRrQQQeGGNQuoAN6pCdpdU
+
+Global Warming:
+images-HomePage/globalwarming.jpeg: https://hips.hearstapps.com/hmg-prod/images/concept-illustration-global-warming-around-the-royalty-free-image-1707420637.jpg
+
+Rising Sea: 
+images-HomePage/HomePage-Summary-Rising-Sea-Levels.webp: https://i.guim.co.uk/img/media/61ed2ea95bceae724e0cb3770c71f424d8155a2f/0_192_5694_3417/master/5694.jpg?width=1200&quality=85&auto=format&fit=max&s=d75d99a034eeadffd290fbff25c8138f
+
+Health:
+images-HomePage/HomePage-Summary-Health.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqdFuel-a_vfoNeBSrC4xRr73LzfxLP-2VXddUcgtiA&s
+
+Economy:
+images-HomePage/HomePage-Summary-Economy.png: https://gmk.center/wp-content/uploads/2023/09/shutterstock_2154195865-1.png
+
+
+Climate Change (Increased Temperatures)
+==========================================
+Climate Change Banner:
+images-HomePage/HomePage-Global-Warming-Banner.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTY9Fqhh8_5dHwDtHvY6i-vvP8AwYA04j5EQXjPK6yYb7Crh5
+
+Global Warming GIF:
+images-HomePage/HomePage-Global-Warming-Earth-Burning.gif: http://www.netanimations.net/Earth_on_Fire_Animated_global_warming.gif
+
+Factory with smoke: 
+images-HomePage/HomePage-Global-Warming-Factory.avif: https://img.freepik.com/premium-photo/sketch-factory-with-smoke-coming-out-stacks-ink-black-white-drawing_725369-3686.jpg?w=360
+
+Deforestation: 
+images-HomePage/HomePage-Global-Warming-Deforestation.jpg: https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1652341008/EducationHub/photos/deforestation.jpg
+
+Rising Sea 
+=======================
+
+Sea-Banner:
+images-HomePage/HomePage-Rising-Sea-Intro-Bg.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVfDOBnjmFRrgwKOi8LqiKfpztj3L41vCCbP9Nk4UNw&s
+
+Rising Sea Level Graph:
+images-HomePage/HomePage-Rising-Sea-Sea-Levels-Graph.png
+
+Rising-Sea-Intro-Bg:
+images-HomePage/HomePage-Summary-Rising-Sea-Levels.webp: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqQgb_mudTHDyHSdkIoQTgF7pKoy9IHQgPY6_mJEGpQ&s
+
+Melting Glacier:
+images-HomePage/HomePage-Rising-Sea-Melting-Glacier.gif: https://i.pinimg.com/originals/09/2b/74/092b7480afa38d92f95d6874771ddb74.gif
+
+Thermal Expansion of Water:
+images-HomePage/HomePage-Rising-Sea-Thermal-Expansion.gif: https://earthobservatory.sg/images/default-source/resources/multimedia-new/slr-05-thermalexpansion.gif?sfvrsn=81f62a92_2
+
+Health
+=================
+
+Healthcare BG:
+images-HomePage/HomePage-Health-BG.jpg: https://knowledge.csc.gov.sg/images/Cropped_images/Ethos_Issue_09/9_Banner_Strategic%20Orientations%20in%20Singapore%20Healthcare.jpg
+
+Heat-Related Mortality:
+images-HomePage/Homepage-Health-Heat-Related-Mortality.webp: https://static.toiimg.com/thumb/msid-99620278,width-1280,height-720,resizemode-4/99620278.jpg
+
+Cold-Related Mortality:
+images-HomePage/HomePage-Health-Cold-Related-Mortality.avif: https://www.cdc.gov/nceh/toolkits/images/prevent_hypothermia.jpg
+
+Air-Quality:
+images-HomePage/HomePage-Health-Air-Quality.jpg: https://www.breeze-technologies.de/wp-content/uploads/2019/06/holger-link-748973-unsplash-1030x687.jpg
+
+Ozone-Depletion:
+images-HomePage/HomePage-Health-Ozone-Depletion.webp: https://i0.wp.com/classnotes.ng/wp-content/uploads/2019/12/ozone-depletion.png?fit=1202%2C802&ssl=1
+
+Dengue-Fever:
+images-HomePage/HomePage-Health-Dengue-Fever.avif: https://images.theconversation.com/files/556123/original/file-20231026-24-tsd6io.jpeg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip
+
+Economy
+================
+
+BG:
+images-HomePage/HomePage-Economy-BG.jpeg: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJwkZZg914A2XkX5aSbD40_T3HpX3HkxIudjHKbyYRVVPXiQv0
+
+Earth-Economy-Declining:
+images-HomePage/HomePage-Economy-Declining-Earth.jpeg: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTpTh0YlvUjAlUCOgOpq7F8iuiHFPX56UvzR9HeEa3vVfqssB8
+
+Agriculture:
+images-HomePage/HomePage-Economy-Agriculture.jpg: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUuw9Ut4caYmCuoLp9VLMnktytQTXj_yOTssK1hEccledK2fud
+
+Infrastructure:
+images-HomePage/HomePage-Economy-Infrastructure.jpeg: https://miro.medium.com/v2/resize:fit:720/format:webp/1*5YG7swAiWXyV5anH0-hGTw.jpeg
+
+Tourism:
+images-HomePage/HomePage-Economy-Tourism.jpg: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQ1vZbWs1BDKQB2k1sEX1rW9tpS42cUgJ3TilqmucZ_eWLLFpH
+
+==============================
+Introduction On SDG 13
+==============================
+BG:
+images-HomePage/HomePage-Introduction-Page-BG.jpg: https://www.eurobiz.com.cn/wp-content/uploads/2016/02/earth-recycle.png
+
+
+=============================
+SDG 13 Implementation
+=============================
+BG:
+images-HomePage/HomePage-Implementation-BG.jpg: https://www.twi-global.com/CachedImage.axd?ImageName=What-is-Sustainability.jpg&ImageWidth=784&ImageHeight=379&ImageVersionID=102110&ImageModified=20201029133929
+
+Organisation:
+images-HomePage/HomePage-Implementation-Organisation.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuplNGjoyQQjr94SyJyShwLu-A_L75rJV-VZx77o6s5w&s
+
+Companies:
+images-HomePage/HomePage-Implementation-Companies.png: https://sealawards.com/wp-content/uploads/2018/11/Corp-Winners-All-Logos-SEAL-2018-Twitter-1.png
+
+Government:
+images-HomePage/HomePage-Implementation-Government.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxF0mzBtikh2vfHuFwCOpYKHNvzlqCKHSUL6yK2KWcQ&s
+
+=================
+    Examples
+==================
+Examples-BG:
+images-HomePage/HomePage-Implementation-Examples.jpeg: https://www.lovethesat.com/wp-content/uploads/2017/12/examples-of-pestle-analysis.jpg
+
+Organisations-FOTE:
+images-HomePage/HomePage-Implementation-Organisation-FOTE.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyy7xNjSe9p3s8cHgBquBUJi7T5lEKSkom62ARwxpHHA&s
+
+FOF-Logo:
+images-HomePage/HomePage-Implementation-FOF.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tr9gjXt1q_MeR4P5lBX8Pqgi4rRjy7ugfMWB0ECHIw&s
+
+GreenPeace-Logo:
+images-HomePage/HomePage-Implementation-GreenPeace-Logo.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpKN08IHpNb-yUYY0xHamf8CPyc0Oj3_-5xoAlNwltw&s
+
+Apple-Logo:
+images-HomePage/HomePage-Implementation-Apple-Logo.png: https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202206040403
+
+IKEA-Logo:
+images-HomePage/HomePage-Implementation-IKEA-Logo.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJg-DWyW-6A-DS88BHw-j7kjTB81yfdBOPf1tW0OrTlw&s
+
+SG-Green-Plan-Logo:
+images-HomePage/HomePage-Implementation-SG-Green-Plan-Logo.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgHH7lLNKWB0B8iR2pHJ60rLuhDcQ3nTJftypwWzXU&s
+
+
+FOF-Image:
+images-HomePage/HomePage-Implementation-FOF-Image.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcsoKoITctHp51j_1jo0Y_1CAa5uhKRt7oW9o2VnmdPg&s
+
+GreenPeace-Image:
+images-HomePage/HomePage-Implementation-GreenPeace-Image.jpeg: https://globalvoices.org/wp-content/uploads/2024/02/Greenpeace1-1200x675.jpg
+
+Apple-Image:
+images-HomePage/HomePage-Implementation-Apple-Image.jpg: https://academy.education.investing.com/wp-content/uploads/2022/09/Apple-offices.jpg
+
+IKEA-Image:
+images-HomePage/HomePage-Implementation-IKEA-Image.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5pms4CXgItwBzZfUVt1br955FrgZELa9eWoUb9UMLHQ&s
+
+SG-GP-Image:
+images-HomePage/HomePage-Implementation-SG-GP.jpg: https://edgemarkets-transferred.s3-ap-southeast-1.amazonaws.com/367889737%20%281%29_0.jpg?ZsXH5CP.ZpyqMw09rh.6AJ13jbKYXM5Q
+
+Denmark-Green-Image:
+images-HomePage/HomePage-Implementation-Sustainable-Denmark.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0izWzMui5JcnPaQEtj6MnjOZRnvZF-F97Pg0lhQ6nnQ&s
+
+Footer
+================================
+
+Singapore-Poly:
+images-HomePage/Singapore-Poly-Logo.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhFqKw1nLPX0Rol_41HS0sGhReWewRhZ45lQ7NeYTpQ&s
+
+Instagram-Logo:
+images-HomePage/Instagram-Logo.png: https://as2.ftcdn.net/v2/jpg/03/20/88/33/1000_F_320883393_q7ROQwEkFchU1WGGSfwxCG9X9CLUW0JD.jpg
+
+FaceBook-Logo:
+images-HomePage/FB-Logo.png: https://1000logos.net/wp-content/uploads/2016/11/fb-logo.jpg
+
+=================================
+Sources for paragraphs:
+================================
+
+Introduction Page:
+
+1. https://science.nasa.gov/climate-change/what-is-climate-change/
+
+Global Warming:
+
+1. https://education.nationalgeographic.org/resource/global-warming/
+
+2. https://www.nrdc.org/stories/global-warming-101#prevention
+
+3. https://www.un.org/en/climatechange/science/causes-effects-climate-change
+
+4. https://www.nationalacademies.org/based-on-science/climate-change-global-warming-is-contributing-to-extreme-weather-events
+
+Sea Level:
+1. https://climate.nasa.gov/vital-signs/sea-level/?intent=121
+
+2. https://education.nationalgeographic.org/resource/sea-level-rise/
+
+3. https://www.worldwildlife.org/pages/why-are-glaciers-and-sea-ice-melting
+
+4. https://www.smithsonianmag.com/smart-news/fifteen-million-people-at-risk-of-severe-floods-from-melting-glaciers-180981608/
+
+5. https://science.nasa.gov/climate-change/causes/
+
+Health:
+
+1. https://www.carbonbrief.org/risk-of-heat-related-deaths-has-increased-rapidly-over-past-20-years/
+
+2. https://www.channelnewsasia.com/sustainability/abnormal-temperature-deaths-in-asia-climate-change-2034631
+
+3. https://www.epa.gov/climateimpacts/climate-change-impacts-air-quality
+
+4. https://uk-air.defra.gov.uk/research/ozone-uv/moreinfo?view=deleption-climate-change
+
+5. https://www.tn.gov/health/cedep/environmental/environmental-health-topics/eht/ozone.html
+
+Economic: 
+
+1. 
+https://news.climate.columbia.edu/2019/06/20/climate-change-economy-impacts/
+
+Implementation of SDG 13:
+
+1. 
+https://foodtank.com/news/2020/10/36-organizations-helping-solve-the-climate-crisis/
+2. 
+https://greencitizen.com/blog/green-companies/
+
+
+Introduction to SDG:
+
+1. 
+https://www.undp.org/sustainable-development-goals

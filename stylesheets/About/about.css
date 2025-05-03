@@ -1,0 +1,1005 @@
+@charset "UTF-8";
+/*
+Ordered from top to bottom of page
+
+Keywords:
+1. Landing-Content
+2. Introduction-Content
+3. Values-Content
+4. Interest-Overview-Contenyy
+5. Interest-Description-Content
+6. Personality-Content
+
+To search use: "Keyword: (keyword)"
+*/
+
+
+/* 
+=================================
+The Navigation Bar
+=================================
+*/
+
+/* HAMBURGER DROPDOWN MENU */
+
+div.Hamburger > button.NavBar-Top-Hamburger {
+
+    left: 5px;
+    position: absolute;
+    background-size: 40px 35px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    width: 40px;
+    height: 55px;
+
+    border-style: none;
+
+    background-image: url("/images-About/hamburger.png");
+    background-position: center;
+}
+
+/*If not hover dropdown menu will not show*/
+
+div.Hamburger nav.NavBar-Top-List {
+
+    position: absolute;
+    display: block;
+    left: -15vw;
+    margin-top: 55px;
+    height: calc(100vh - 60px);
+    width: 14vw;
+
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: rgba(215, 209, 209, 0.87);
+    border-width: 2px;
+
+    z-index: 2;
+
+}
+
+div.Hamburger nav.NavBar-Top-List div.NavBar-Image {
+
+    display: block;
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 16vh;
+
+    background-image: url("/images-About/About-SideBar-About-Me.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14vw 16vh;
+}
+
+@keyframes hamburger-show {
+
+    from {
+        filter: opacity(5%);
+        left: -14vw;
+        background-color: rgba(0,0,0,0);
+    }
+    to {
+        filter: opacity(100%);
+        left: 0px;
+        background-color: rgba(38, 38, 42, 0.939);
+    }
+    
+}
+
+div.Hamburger:hover > button.NavBar-Top-Hamburger {
+
+    background-image: url("/images-About/down.png");
+    background-repeat: no-repeat;
+
+}
+
+/* If hover will show list*/
+div.Hamburger:hover nav.NavBar-Top-List {
+
+    animation-name: hamburger-show;
+    animation-duration: 0.65s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.05s;
+
+}
+
+/* Hambuger Content*/
+a.NavBar-Top {
+
+    display: block;
+    position: relative;
+    margin-top: 1px;
+    text-decoration-line: none;
+    left: 0vw;
+
+    width: 14vw;
+    height: 80px;
+
+    color: #c1c0c5;
+    background-color: rgba(38, 38, 42, 0.778);
+
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-top-color:rgba(247, 221, 140, 0.3);
+    border-bottom-color: rgba(247, 221, 140, 0.3);
+    border-left-color:rgba(12, 12, 36, 0.3);
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    overflow-x: hidden;
+
+}
+
+a.NavBar-Top:hover {
+
+    background-color: rgba(243, 155, 111, 0.65);
+    color: gold;
+}
+/*=====================================*/
+/* Images */
+
+/* United Nations */
+/* Creates a block to hold the UN icon and text*/
+
+div.UN-Image-Link {
+
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw;
+
+    top: 3px;
+    left: 6vw;
+    height: 45px;
+    width: 16vw;
+
+    overflow: hidden;
+    
+    background-image: url("/images-About/UN-Logo.webp");
+    background-size: 65px 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+
+    filter: brightness(180%);
+
+}
+
+div.UN-Image-Link a {
+
+    display: block;
+    height: 45px;
+    width: 15.5vw;
+
+    text-decoration: none;
+    color: rgba(92, 150, 238, 0.813);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: end;
+    align-content: center;
+    overflow: hidden;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Sdg Image Icon */
+
+div.SDG-Image-Link {
+
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw;
+    
+    left: 27vw;
+    height: 55px;
+    width: 8vw;
+
+    background-image: url("/images-About/sdg.webp");
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+
+    overflow: hidden;
+
+}
+
+div.SDG-Image-Link a {
+
+    display: block;
+    position: absolute;
+
+    height: 55px;
+    width: 7vw;
+
+    text-decoration: none;
+
+    color: rgba(85, 237, 146, 0.813);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: end;
+
+    align-content: center;
+    overflow: hidden;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*=====================================*/
+/* Rotating Earth */
+
+@keyframes spinning-earth {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+div.Rotating-Earth {
+
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    top: 7.5px;
+    left: 43vw;
+
+    background-image: url("/images-About/earth.png");
+    background-repeat: no-repeat;
+    filter: opacity(80%);
+    background-size: 70px 40px;
+    background-position: center;
+
+    animation-name: spinning-earth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    overflow: hidden;
+
+    z-index: 1;
+
+}
+
+/*The nav bar (Right-side)*/
+
+div.NavBar-Right a {
+
+    position: relative;
+    display: block;
+    float: left;
+    left : 51vw;
+    width: 12vw;
+    height: 55px;
+
+    text-align: center;
+    align-content: center;
+
+    text-decoration: none;
+    color: #c1c0c5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+
+    overflow-y: hidden;
+
+}
+
+div.NavBar-Right a {
+
+    border-style: none;
+    border-left-style: inset;
+    background-color: rgba(0,0,0,0);
+
+}
+
+div.NavBar-Right a:hover {
+
+    text-decoration-line: underline;
+    background-color: rgba(123, 125, 125, 0.65);
+
+}
+
+div.NavBar-Right a.onAbout {
+
+    background-color: rgb(44, 78, 4);
+
+}
+
+div.NavBar-Right a.onAbout:hover {
+
+    text-decoration-line: underline;
+    background-color: rgba(95, 168, 12, 0.888);
+
+}
+
+/*
+===========================================
+        Landing (Keyword: Landing-Content)
+============================================
+*/
+
+div.About-Landing-Page div.About-Landing-Page-TextBox h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vw;
+    color: #f5ecff;
+    text-decoration: underline 3px whitesmoke;
+}
+
+div.About-Landing-Page div.About-Landing-Page-TextBox p {
+
+    color: #f5ecff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+
+    text-shadow: 0.5px 0.5px 9px black;
+}
+
+div.About-Landing-Page a.Continue-Down {
+
+    display: block;
+    position: absolute;
+
+    color: #f5ecff;
+
+    text-decoration: none;
+
+    bottom: 3vh;
+    left: 46vw;
+
+    width: 8vw;
+    height: 3vh;
+
+    font-size: 1vw;
+
+    text-align: center;
+
+}
+
+div.About-Landing-Page a:hover.Continue-Down {
+
+    text-decoration: underline 0.5px white;
+    text-shadow: 1px 1px 5px whitesmoke;
+}
+
+/* 
+==========================================================
+    Introduction Page (Keyword: Introduction-Content)
+==========================================================
+*/
+
+div.About-Introduction-Page div.About-Introduction-Page-ImageBox img {
+
+    display: block;
+    position: absolute;
+
+    object-fit: cover;
+    border-radius: 50%;
+    height: 20vw;
+    width: 20vw;
+
+    border-style: solid;
+    border-width: 12px;
+    border-color: #2e9bdf;
+    box-shadow: 12px 12px 30px rgb(49, 173, 204);
+
+    top: 10vh;
+    left: 0vw;
+
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f5ecff;
+    font-size: 3vw;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox div.row1 h1 img {
+
+    display: inline-block;
+    position: relative;
+
+    top: 7px;
+
+    height: 50px;
+    width: 80px;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox h3 {
+
+    color: #7dc8d7;
+    font-size: 1.5vw;
+    text-decoration: underline 2px white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox h3 img {
+
+    display: inline-block;
+    position: relative;
+
+    top: 5px;
+    margin-left: 10px;
+    
+    height: 30px;
+    width: 30px;
+
+}
+
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5ecff;
+    font-size: 1.5vw;
+    padding-left: 15px;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox div.row3 img {
+
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+div.About-Introduction-Page div.About-Introduction-Page-TextBox div.row3 span.Bulb {
+
+    display: inline-block;
+
+    text-shadow: 3px 3px 15px yellow;
+}
+
+div.About-Introduction-Page a.About-Introduction-Page-More-About-Me-Button {
+
+    display: block;
+    position: absolute;
+
+    top: 65vh;
+    left: 14vw;
+
+    width: 20vw;
+    height: 10vh;
+
+    color:gold;
+
+    border-style: ridge;
+    border-color: #f5ecff;
+    border-radius: 10px;
+    border-width: 3px;
+
+    align-content: center;
+    text-align: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-decoration: none;
+
+    background-color:rgba(87, 118, 51, 0.888);
+    box-shadow: 5px 5px 30px rgb(159, 154, 154);
+
+    z-index: 2;
+}
+
+div.About-Introduction-Page a:hover.About-Introduction-Page-More-About-Me-Button {
+
+    background-color: rgba(41, 236, 2, 0.58);
+    color: rgb(255, 208, 0);
+
+    transform: skewX(-0.5deg) skewY(-0.5deg);
+
+}
+
+
+/*
+=================================================
+        My Values (Keyword: Values-Content)
+================================================
+*/
+
+div.About-My-Values-Container div.column1 h1 {
+
+    font-size: 4.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: rgb(85, 150, 44);
+    text-shadow: 0.5px 0.5px 10px rgb(48, 81, 12);
+
+    text-align: center;
+
+}
+
+div.About-My-Values-Container img.Image {
+
+    display: block;
+    position: relative;
+    height: 15vw;
+    width: 15vw;
+
+    left: calc(8vw - 20px);
+
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 50%;
+    border-color: #2d711d;
+
+    padding: 20px;
+
+    object-fit: cover;
+
+    box-shadow: 0.5px 0.5px 20px rgb(122, 166, 86);
+
+    background-color: rgba(217, 219, 220, 0.791);
+
+}
+
+div.About-My-Values-Container img.Image2 {
+
+    display: block;
+    position: relative;
+
+    height: 80%;
+    width: 60%;
+
+    left: 20%;
+    top: 10%;
+
+    background-color: white;
+}
+
+div.About-My-Values-Container div.column2-row2 h1 {
+
+    font-size: 2vw;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline 2px whitesmoke;
+
+}
+
+div.About-My-Values-Container div.column3-row2 h1 {
+
+    font-size: 2vw;
+
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline 2px whitesmoke;
+
+}
+
+div.About-My-Values-Container div.column4-row2 h1 {
+
+    font-size: 1.65vw;
+    margin-top: 10%;
+
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline 2px whitesmoke;
+}
+
+div.About-My-Values-Container p {
+
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+div.About-My-Values-Container span.HandShake {
+
+    display: inline-block;
+}
+
+div.About-My-Values-Container span.Heart {
+
+    display: inline-block;
+    color: red;
+    text-shadow: 2px 2px 9px red;
+}
+
+div.About-My-Values-Container span.Fist {
+
+    display: inline-block;
+}
+
+/* 
+==========================================================
+    My Interests (Keyword: Interest-Overview-Content)
+==========================================================
+*/
+
+div.About-My-Interests-TextBox img.icon {
+
+    display: inline-block;
+    position: relative;
+
+    left: 0vw;
+    height: 15vw;
+    width: 15vw;
+
+    border-style: solid;
+    border-color: red;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+div.About-My-Interests-TextBox h1 {
+
+    margin-top: 0px;
+    color: rgb(240, 235, 227);
+    font-size: 4.5vw;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.About-My-Interests-TextBox h1 span.blue {
+
+    color: #b935d3;
+}
+
+div.About-My-Interests-TextBox h1 span.light_blue {
+
+    color: #e6449a;
+}
+
+/* 
+===============================
+        TextBox Below 
+===============================
+*/
+
+
+div.About-My-Interests-Container-TextBox p.Line1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+div.About-My-Interests-Container-TextBox a {
+
+    text-decoration: none;
+    color: #f5ecff;
+    font-size: 1.2vw;
+}
+
+div.About-My-Interests-Container-TextBox a:hover {
+
+    text-decoration: underline;
+}
+
+@keyframes colorchangingwords {
+
+    0% {
+        color: #f5ecff;
+        text-shadow: 0.5px 0.5px 3px whitesmoke;
+    }
+    60% {
+        color: #66a5ab;
+        text-shadow: 0.5px 0.5px 2px rgb(54, 132, 163);
+    }
+
+    80% {
+        color: #a9d2a0;
+        text-shadow: 0.5px 0.5px 2px rgb(84, 182, 84);
+    }
+    
+}
+
+div.About-My-Interests-Container-TextBox p.Line1 {
+
+    animation-name: colorchangingwords;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+/*
+===================================================================
+    My Interest Description (Keyword: Interest-Description-Content)
+===================================================================
+*/
+
+/* Programming */
+h1.Title-Box {
+
+    margin-top: 3vh;
+    padding-left: 1vw;
+    color: #f5ecff;
+    font-size: 1.75vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+h2.Description-Box {
+
+    color: rgb(57, 54, 54);
+    padding-left: 1vw;
+    font-size: 2.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: block;
+    position: relative;
+}
+
+p.Information-Box {
+
+    color: #f5ecff;
+    padding-left: 1vw;
+    padding-left: 1vw;
+    font-size: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 
+==============================================
+    Personality (Keyword: Personality-Content)
+==============================================
+*/
+
+
+div.About-My-Personality-Page h1.Title {
+
+    color: #f5ecff;
+    font-family: cursive;
+    font-size: 2.5vw;
+
+    text-decoration: underline 3px white;
+
+    text-align: center;
+
+
+}
+
+div.About-My-Personality-Page div.About-My-Personality-Container img {
+
+    position: relative;
+    display: block;
+
+    left: 20%;
+    top: 0%;
+
+    height: 100%;
+    width: 60%;
+
+    background-color: white;
+
+    border-style: ridge;
+    border-color: #2d711d;
+    border-width: 3px;
+
+    box-shadow: 2px 2px 15px greenyellow;
+
+}
+
+div.About-My-Personality-Container p {
+
+    color: #f5ecff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.25vw;
+    padding-left: 5px;
+}
+
+div.About-My-Personality-Container h1.Listing {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: #4fec2c;
+    padding-left: 5px;
+    font-size: 3.5vw;
+}
+
+div.About-My-Personality-Container h2 {
+
+    color: #26bfde;
+    padding-left: 5px;
+
+    font-size: 1.75vw;
+}
+
+/* 
+==============================
+            Footer 
+==============================
+*/
+
+footer div.column1-row1 p.Credits {
+
+    text-align: center;
+    margin-top: 0px;
+
+    font-size: 1.25vw;
+
+    text-decoration: underline 0.5px whitesmoke;
+}
+
+footer div.column1-row1 div.Footer-Logo {
+
+    display: block;
+
+    position: absolute;
+    align-self: center;
+
+    width: 210px;
+    height: 60px;
+
+    left: calc(50% - 105px);
+    top: 5vh;
+
+}
+
+footer div.column1-row1 img.Footer-SDG-Logo {
+
+    display: block;
+    position: absolute;
+
+    left: 0px;
+
+    height: 60px;
+    width: 60px;
+}
+
+footer div.column1-row1 img.Footer-UN-Logo {
+
+    display: block;
+    position: absolute;
+    
+    left: 65px;
+
+    height: 60px;
+    width: 80px;
+
+    filter: brightness(180%);
+}
+
+footer div.column1-row1 img.Footer-SP-Logo {
+
+    display: block;
+    position: absolute;
+    
+    left: 150px;
+
+    height: 60px;
+    width: 60px;
+}
+
+footer div.column1-row1 p.Bottom-Text {
+
+    display: block;
+    position: relative;
+
+    top: 6vh;
+    left: 33%;
+
+    font-size: 2vw;
+    color: #00c89b;
+
+    height: fit-content;
+    width: fit-content;
+
+    text-align: center;
+
+}
+
+footer div.column1-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column1-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column1-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column2-row2 span.mail {
+
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    color: #f5ecff;
+    text-shadow: 0.5px 0.5px 10px whitesmoke;
+    font-size: 1.5vw;
+
+}
+
+footer div.column2-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column2-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column2-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column2-row2 span.phone {
+
+    display: inline-block;
+    color: #f5ecff;
+    text-shadow: 0.5px 0.5px 10px whitesmoke;
+
+}
+
+footer div.column2-row2 img.Instagram-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+
+    top: -3px;
+}
+
+footer div.column2-row2 img.FB-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 45px;
+
+    top: 0px;
+    margin-left: -8px;
+}
+
+footer div.column2-row2 img.Twitter-Logo {
+
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 50px;
+
+    margin-left: -8px;
+
+    top: -3px;
+}
+
+footer div.column3-row2 h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div.column3-row2 ul {
+
+    list-style-type: none;
+}
+
+footer div.column3-row2 a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+footer div.column3-row2 span.Home,span.Trophy {
+
+    display: inline-block;
+}

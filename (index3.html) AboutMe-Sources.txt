@@ -1,0 +1,141 @@
+FavIcon
+====================
+images-About/About-FavIcon.png: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO1PfRLu6Wwx90ne5pPiwkyXmSsaikFpHJ776TvhekFkbjNgkz
+
+HomePage Favicon
+=================
+images-About/About-FavIcon.png: https://cdn-icons-png.flaticon.com/512/25/25694.png
+
+NavBar
+==================
+
+Hamburger icon: 
+images-About/hamburger.png: https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png
+
+Down icon:
+images-About/down.png: https://t3.ftcdn.net/jpg/04/83/39/12/360_F_483391217_rDo0Gdjp71zXabPRjeaE1O3I85R6nIgB.jpg
+
+UN icon:
+images-About/UN-Logo.webp: https://sdgs.un.org/themes/custom/porto/assets/images/logo-en.svg\
+
+SDG icon:
+images-About/sdg.webp: https://gef.eu/wp-content/uploads/2019/02/GEF_SDGs_icon1-1.jpg
+
+Earth:
+images-About/earth.png: https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg
+
+SideBar
+=======================
+About Me:
+images-About/About-SideBar-About-Me.jpg: https://www.impactplus.com/hs-fs/hubfs/blog-image-uploads/best-about-us-pages.jpg?length=1200&name=best-about-us-pages.jpg
+
+Landing-Page
+==============================
+
+About-Author-BG:
+images-About/About-Landing-Page-BG.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUbTczMV1Z5JlCTx_mF9444iWOR2q3lTFUTbPmPvczCQ&s
+
+Introduction-Page
+===============================
+
+About-Intro-Curious:
+images-About/About-Introduction-Page-Curious.jpg: https://as2.ftcdn.net/v2/jpg/01/99/13/41/1000_F_199134112_2WlNpjkACeUv3Xh7thJPtPLM9koZ5zhy.jpg
+
+About-Intro-Me:
+https://media.tenor.com/bphpDET8BnQAAAAM/hac-xd.gif
+
+About-Intro-Person-Icon:
+images-About/About-Introduction-Page-Person-Icon.jpg: https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg
+
+About-Intro-Minecraft:
+images-About/About-Introduction-Page-Minecraft-Logo.png: https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png
+
+Values Page
+===========================
+Values Icon:
+images-About/About-Values-Icon.png: https://img.tineye.com/result/667aa94d616c4e52504c04426ca7891ed4f626822a3ab062677d26bcab8f872f-68?size=160
+
+Compassion:
+images-About/About-Values-Compassion.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgmo9zCcY8vWYqKP7OJtDwtPS--OFQ_iLdPIOozQyE3Q&s
+
+Respect:
+images-About/About-Values-Respect.jpg: https://static.vecteezy.com/system/resources/thumbnails/007/126/691/small/handshake-icon-free-vector.jpg
+
+Determination:
+images-About/About-Values-Determination.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYyty86vg3N6pUEILLPTTY6RkGpMgyeeUePq1CFh1Rg&s
+
+
+My Interests and Hobbies
+===============================
+
+Hobbies-and-Interests-Icon:
+images-About/About-My-Interests-TextBox-Icon.jpg: https://static.vecteezy.com/system/resources/previews/017/504/223/original/hobby-icon-illustration-people-icon-with-coffee-cup-book-music-video-icon-related-to-lifestyle-line-icon-style-simple-design-editable-vector.jpg
+
+Chemistry:
+images-About/About-My-Interests-Chemistry.jpg: https://www.thoughtco.com/thmb/6MsMmUK27akFhb8i89kj95J5iko=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-545286316-433dd345105e4c6ebe4cdd8d2317fdaa.jpg
+
+Physics:
+images-About/About-My-Interests-Physics.jpg: https://physics.biu.ac.il/sites/physics/files/styles/front_hero_slide_/public/imgs/slides21/shutterstock_2146705679.jpg?itok=Xbw7zDfp
+
+Programming:
+images-About/About-My-Interests-Programming.jpeg: https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/computer-coding.jpg
+
+Gaming:
+images-About/About-My-Interests-Gaming.webp: https://media.wired.com/photos/627da1085d49787abdf713b4/191:100/w_1280,c_limit/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.jpg
+
+Volunteering:
+images-About/About-My-Interests-Volunteering.jpeg: https://res.cloudinary.com/generation/image/upload/w_350,q_auto,f_auto/singapore/2023/10/stock-images-for-web_volunteerins.png
+
+Chess:
+images-About/About-My-Interests-Chess.jpg: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/640px-ChessSet.jpg
+
+Cooking:
+images-About/About-My-Interests-Cooking.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROZ9oO_dy2Fq4aUZfIUAclDcW5JvDTw_1GYLB3lDgQQ&s
+
+Writing:
+images-About/About-My-Interests-Writing.png: https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2021-07/handwriting_literacy_learning.png?itok=_mGssQ8t
+
+Thinking Person:
+images-About/About-My-Interests-Thinking-Person.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbLXCysMJ4cJ-IRVCW28_Fd8k8R3_zdKLH3kHmpbbfyw&s
+
+More Info (Interests)
+=====================
+Programming-Bg:
+images-About/About-My-Interests-Programming-BG.jpg: https://res.cloudinary.com/practicaldev/image/fetch/s--wbmB3ipc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n8n9s3fxbqb4xm7m2pow.jpg
+
+Programming-Java-Icon:
+images-About/About-My-Interests-Programming-Java-Icon.webp: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqTXlutA-QfN9DLXT0zhUtn7suD3_Z-3Q-IgdPSurbw&s
+
+Gaming-BG:
+images-About/About-My-Interests-Gaming-BG.jpg: https://pbs.twimg.com/media/EaEgA8jXYAUbZgp.jpg:large
+
+Physics-Bg:
+images-About/About-My-Interests-Physics-BG.avif: https://i.cbc.ca/1.2684297.1403528936!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/cern-large-hadron-collider.jpg
+
+Chemistry-BG:
+images-About/About-My-Interests-Chemistry-BG.jpg: https://chemistrytalk.org/wp-content/uploads/2023/03/Large_Sodium_Explosion.jpg
+
+Writing-BG:
+images-About/About-My-Interests-Writing-BG.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRjQxANQVW9QNY8i3vx4_3VPSLCgPCU2Ao_Um_WiCzQ&s
+
+Cooking-BG:
+images-About/About-My-Interests-Cooking-BG.webp: https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg
+
+Chess-BG:
+images-About/About-My-Interests-Chess.jpg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZiDJpgYFrQ0lidcVkUj4-rFWDJQKYaRaYKS_0r1jq6A&s
+
+Volunteering-Bg:
+images-About/About-My-Interests-Volunteering-BG.webp: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwcIZh39JWdvFqrnXnov66iuumrwgHa3-JJvt1r2RyQ&s
+
+
+My Personality
+=======================
+Introverted:
+https://cdn.pixabay.com/photo/2020/12/20/04/06/man-5846064_640.jpg
+
+Enthusiastic:
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn6F0WvWLhZ5lZZ4Dd7O96y9yWjx2LmUSdPetrDxx_gw&s
+
+Honest:
+https://cdn-icons-png.flaticon.com/512/1349/1349369.png
+

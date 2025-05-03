@@ -1,0 +1,67 @@
+=======================
+      Favicon
+=======================
+Aspirations Favicon:
+images-Aspirations/Aspirations-FavIcon.png: https://logowik.com/content/uploads/images/sustainability1721.jpg
+
+HomePage Favicon
+=================
+images-About/About-FavIcon.png: https://cdn-icons-png.flaticon.com/512/25/25694.png
+
+NavBar
+==================
+
+Hamburger icon: 
+images-About/hamburger.png: https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png
+
+Down icon:
+images-About/down.png: https://t3.ftcdn.net/jpg/04/83/39/12/360_F_483391217_rDo0Gdjp71zXabPRjeaE1O3I85R6nIgB.jpg
+
+UN icon:
+images-About/UN-Logo.webp: https://sdgs.un.org/themes/custom/porto/assets/images/logo-en.svg\
+
+SDG icon:
+images-About/sdg.webp: https://gef.eu/wp-content/uploads/2019/02/GEF_SDGs_icon1-1.jpg
+
+Earth:
+images-About/earth.png: https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm-1200-80.jpg
+
+===========================
+   Sidebar Menu
+==========================
+My-Goals:
+images-Aspirations/Aspirations-SideBar-My-Goals.avif: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdQy27ApEJeG_a0YE9BYAxt1Noyi0kNN5nwVBCid7vQ&s
+
+===========================
+      Landing Page
+===========================
+
+Aspiration-Landing-Page-BG:
+images-Aspirations/Aspirations-Landing-Page-Bg.jpg: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4Ukey4l_tqy52dR6RsBrzbgaHQC_BRXuL8HAC9ca15MRiWM1m
+
+============================
+        List Page
+============================
+Save-Energy:
+images-Aspirations/Aspiration-List-Page-Save-Energy.avif: https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/11/17/15-light-bulb-rex.jpg
+
+Cycling:
+images-Aspirations/Aspirations-List-Page-Reduce-Emissions.gif: https://media2.giphy.com/media/3o6Zt2YL3H8a7vPBio/giphy.gif?cid=6c09b952stqezaa7f7p68hmrj337vojsysrij0pt3arl66j5&ep=v1_gifs_search&rid=giphy.gif&ct=g
+
+The-3Rs:
+images-Aspirations/Aspirations-List-Page-3Rs.jpg: https://scx2.b-cdn.net/gfx/news/hires/2018/recycle.jpg
+
+Food-Waste:
+images-Aspirations/Aspirations-List-Page-Food-Waste.jpg: https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/policy/food-waste-spotlighted-for-world-food-day-it-has-never-been-a-greater-time-to-invest-in-a-robust-wastage-strategy/11860835-1-eng-GB/Food-waste-spotlighted-for-World-Food-Day-It-has-never-been-a-greater-time-to-invest-in-a-robust-wastage-strategy.jpg
+
+Electric Car:
+images-Aspirations/Aspirations-List-Page-Electric-Cars.jpg: https://img.choice.com.au/-/media/08105110c2ff48b58d436dff479f49a5.ashx?w=760
+
+========================
+Sources for Paragraphs
+========================
+
+Paragraphs:
+https://www.globalgoals.org/goals/13-climate-action/
+
+https://www.un.org/en/actnow/ten-actions

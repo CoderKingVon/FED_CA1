@@ -1,0 +1,1610 @@
+@charset "UTF-8";
+/*
+Ordered from top to bottom of page
+
+Keywords:
+1. Landing-Layout
+2. Introduction-Layout
+3. Summary-Layout
+4. Increased-Temperatures-Layout
+5. Rising-Sea-Layout
+6. Rising-Sea2-Layout
+7. Health-Layout
+8. Health2-Layout
+9. Economy-Layout
+10. Economy2-Layout
+11. Introduction-SDG-Layout
+12. Introduction-SDG2-Layout
+13. Implementation-SDG-Layout
+14. Implementation-SDG2-Layout
+
+To search use: "Keyword: (keyword)"
+*/
+
+
+html {
+    /*Removes scrollbar at the bottom (Horizontal)*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+div.Wrapper {
+    position: absolute;
+
+    left: 0px;
+    top: 45px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    scrollbar-color: #404040b3 #979797 ;
+    scrollbar-width: thin;
+}
+
+a.reference {
+
+    position: relative;
+    color:#b3c2e9;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+a.reference:hover {
+
+    color: #60e0f9;
+    text-decoration: underline 2.5px;
+}
+
+/* Nav Bar*/
+
+div.NavBar-Top {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    height: 55px;
+    width: calc(100vw - 5px);
+    background-color: rgb(0, 0, 0);
+
+    border-style: solid;
+    border-color: #c1c0c5;
+    border-width: 2px;
+
+    box-shadow: 1px 1px 20px black;
+
+    vertical-align: middle;
+    align-content: center;
+
+    z-index: 100;
+}
+
+/*
+=============================================
+    Landing Page (Keyword: Landing-Layout)
+=============================================
+*/
+
+div.Landing-Page {
+
+    position: relative;
+    top: 0vh;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(-45deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.Landing-Page div.Landing-Page-TextBox {
+
+    display: block;
+    position: absolute;
+    top: 0vh;
+    left: 0.1vw;
+    height: 91vh;
+    width: 51vw;
+
+    overflow: hidden;
+    color: #f5ecff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+div.Landing-Page-TextBox div.Landing-Page-Middle-TextBox {
+
+    display: block;
+    position: absolute;
+    
+    height: 75%;
+    width: 80%;
+    left: 10%;
+    top: 8%;
+
+    overflow: auto;
+}
+
+/*
+=========================================================
+        Introcuction Page (Keyword: Introduction-Layout)
+=========================================================
+*/
+
+div.HomePage-Introduction-Page {
+
+    display: block;
+    position: absolute;
+
+    height: 100vh;
+    width: 100vw;
+
+    left: 0px;
+    top: 100vh;
+
+}
+
+div.HomePage-Introduction-Page div.HomePage-Introduction-Page-BG {
+
+    display: block;
+    position: absolute;
+
+    top: 0vh;
+    left: 0vw;
+
+    height: 100%;
+    width: 100%;
+
+    background-image:
+    linear-gradient(90deg, rgba(46, 45, 45, 0.85), rgba(124, 118, 118, 0.5)),
+    url("/images-HomePage/HomePage-Introduction-Page-BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: opacity(90%) blur(2px) brightness(70%);
+    z-index: -5;
+}
+
+div.HomePage-Introduction-Page div.HomePage-Introduction-Page-Left-TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 2.5%;
+    left: 1%;
+
+    width: 35%;
+    height: 60%;
+
+    text-align: center;
+    align-content: center;
+}
+
+div.HomePage-Introduction-Page div.HomePage-Introduction-Page-Right-TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 3%;
+    right: 3%;
+
+    width: 35%;
+    height: 90%;
+
+    border-style: solid;
+    border-color: rgba(56, 183, 211, 0.782);
+    border-width: 4px;
+
+    box-shadow: 12px 12px 15px rgb(58, 58, 59);
+
+    background-color: rgba(69, 70, 74, 0.336);
+
+}
+
+div.HomePage-Introduction-Page div:hover.HomePage-Introduction-Page-Right-TextBox {
+
+    box-shadow: 2px 2px 20px #60e0f9;
+}
+
+/*
+=================================
+Summary (Keyword: Summary-Layout)
+=================================
+*/
+
+div.HomePage-Summary-BackGround {
+
+    display: block;
+    position: absolute;
+
+    left: 0px;
+    top: 200vh;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("/images-HomePage/HomePage-Summary-BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    filter: blur(3px) contrast(60%) brightness(60%);
+
+    border-style: solid;
+}
+
+div.HomePage-Summary {
+
+    display: flex;
+    position: absolute;
+    top: 202vh;
+    left: 12px;
+
+    height: calc(100vh - 30px);
+    width: calc(100vw - 30px);
+
+    border-style: ridge;
+    border-width: 1px;
+    border-color: #c1c0c5;
+
+    box-shadow: 5px 5px 10px rgba(182, 207, 210, 0.05);
+
+
+}
+/* Right to left 1-4 */
+
+div.HomePage-Summary div.HomePage-Summary-Box1 {
+
+    display: block;
+    position: absolute;
+
+    right: 2vw;
+    top: 20px;
+
+    height: 70vh;
+    width: 20vw;
+
+    border-style: groove;
+    border-color: #00c4e2a7;
+    border-width: 2px;
+
+    background-image: url("/images-HomePage/HomePage-Summary-Economy.png");
+    background-repeat: no-repeat;
+    background-position: 1.5vw 6vh;
+    background-size: 17vw 26vh;
+
+    background-color: rgba(69, 70, 74, 0.724);
+    
+    overflow: hidden;
+
+    box-shadow: 15px 15px 30px black;
+}
+
+div.HomePage-Summary div:hover.HomePage-Summary-Box1 {
+
+    box-shadow: 1px 1px 20px #3dc7f1;
+}
+
+div.HomePage-Summary div.HomePage-Summary-Box2 {
+
+    display: block;
+    position: absolute;
+
+    right: 25vw;
+    top: 80px;
+
+    height: 70vh;
+    width: 20vw;
+
+    border-style: groove;
+    border-color: #00c4e2a7;
+    border-width: 2px;
+
+    background-image: url("/images-HomePage/HomePage-Summary-Health.png");
+    background-repeat: no-repeat;
+    background-position: 2.5vw 6vh;
+    background-size: 15vw 25vh;
+
+    background-color: rgba(69, 70, 74, 0.724);
+
+    overflow: hidden;
+
+    box-shadow: 15px 15px 30px black;
+
+}
+
+div.HomePage-Summary div:hover.HomePage-Summary-Box2 {
+
+    box-shadow: 1px 1px 20px #3dc7f1;
+}
+
+div.HomePage-Summary div.HomePage-Summary-Box3 {
+
+    display: block;
+    position: absolute;
+
+    right: 52vw;
+    top: 80px;
+
+    height: 70vh;
+    width: 20vw;
+
+    border-style: groove;
+    border-color: #00c4e2a7;
+    border-width: 2px;
+
+    background-image: url("/images-HomePage/HomePage-Summary-Rising-Sea-Levels.webp");
+    background-repeat: no-repeat;
+    background-position: 1vw 6vh;
+    background-size: 18vw 27vh;
+
+    background-color: rgba(69, 70, 74, 0.724);
+
+    overflow: hidden;
+
+    box-shadow: 15px 15px 30px black;
+
+}
+
+div.HomePage-Summary div:hover.HomePage-Summary-Box3 {
+
+    box-shadow: 1px 1px 20px #3dc7f1;
+}
+
+div.HomePage-Summary div.HomePage-Summary-Box4 {
+
+    display: block;
+    position: absolute;
+
+    right: 75vw;
+    top: 20px;
+
+    height: 70vh;
+    width: 20vw;
+
+    border-style: groove;
+    border-color: #00c4e2a7;
+    border-width: 2px;
+
+    background-image: url("/images-HomePage/HomePage-Summary-Global-Warming.jpeg");
+    background-repeat: no-repeat;
+    background-position: 1vw 6vh;
+    background-size: 18vw 21vh;
+
+    background-color: rgba(69, 70, 74, 0.724);
+
+    overflow: hidden;
+
+    box-shadow: 15px 15px 30px black;
+
+}
+
+div.HomePage-Summary div:hover.HomePage-Summary-Box4 {
+
+    box-shadow: 1px 1px 20px #3dc7f1;
+}
+
+/* 
+===============================================================
+Increased Temperatures (Keyword: Increased-Temperatures-Layout)
+===============================================================
+*/
+
+div.HomePage-Climate-Change {
+
+    display: block;
+    position: absolute;
+    top: 300vh;
+    left: 0vw;
+
+    height: 208.5vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+    background-image: linear-gradient(-45deg,rgb(4, 2, 54),rgb(29, 27, 27));
+
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+
+div.HomePage-Climate-Change div.HomePage-Climate-Change-Header-Image {
+
+    position: relative;
+    display: block;
+    left: 0vw;
+    top: 0vh;
+    height: 37.5vh;
+    width: 100vw;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+
+    background-image: url("/images-HomePage/HomePage-Global-Warming-Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 20%;
+
+    filter: contrast(50%) saturate(120%) grayscale(30%) brightness(90%);
+
+    outline-style: ridge;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+div.HomePage-Climate-Change-Header-Image div.HomePage-Climate-Change-Header-Image-TextBox {
+
+    display: block;
+    height: 80px;
+    width: 70%;
+    bottom: 30%;
+    left: 15%;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    font-size: 6vh;
+    font-weight: bolder;
+
+    background-color: rgba(47, 53, 54,0.65);
+
+    color:rgb(255, 149, 0);
+    text-shadow: 2px 2px 20px orange;
+
+    overflow: hidden;
+}
+
+div.HomePage-Climate-Change div.HomePage-Climate-Change-Container {
+
+    display: grid;
+    position: absolute;
+
+    top: 38.5vh;
+    left: 12.5vw;
+
+    width: 75vw;
+    height: 80%;
+
+    grid-template-columns: 7% 28% 30% 35%;
+    grid-template-rows: 20% 7% 35% 35%;
+
+    align-content: space-between;
+
+}
+
+div.HomePage-Climate-Change-Container div.column2-3-row1 {
+
+    grid-row: 1/2;
+    grid-column: 2/4;
+}
+
+div.HomePage-Climate-Change-Container div.column4-row1 {
+
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+div.HomePage-Climate-Change-Container div.column1-5-row2 {
+
+    grid-row: 2/3;
+    grid-column: 1/5;
+}
+
+div.HomePage-Climate-Change-Container div.column1-2-row3 {
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+div.HomePage-Climate-Change-Container div.column1-2-row4 {
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+div.HomePage-Climate-Change-Container div.column3-4-row3 {
+    grid-row: 3/4;
+    grid-column: 3/5;
+
+}
+
+div.HomePage-Climate-Change-Container div.column3-4-row4 {
+    grid-row: 4/5;
+    grid-column: 3/5;
+
+}
+
+
+div.HomePage-Climate-Change div.HomePage-Climate-Change-TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 38.5vh;
+    right: 11.5vw;
+
+    height: 80%;
+    width: 55vw;
+
+    color: #f5ecff;
+
+}
+
+div.HomePage-Climate-Change div.HomePage-Climate-Change-ImageBox {
+
+    display: block;
+    position: absolute;
+
+    top: 38.5vh;
+    left: 12.5vw;
+
+    width: 20vw;
+    height: 80%;
+
+}
+/*
+===============================================
+    Rising Sea (Keyword: Rising-Sea-Layout)
+===============================================
+*/
+
+div.HomePage-Rising-Sea-Banner-BG {
+
+    display: block;
+    position: absolute;
+    top: 508.5vh;
+    left: 0vw;
+
+    width: 100vw;
+    height: 30vh;
+
+    border-width: 4px;
+
+    background-image: linear-gradient(-180deg,rgb(30, 30, 32),rgb(29, 27, 27));
+    background-repeat: no-repeat;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(45, 104, 163);
+    border-width: 3px;
+
+}
+
+div.HomePage-Rising-Sea-Banner {
+
+    display: block;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+
+    width: 100vw;
+    height: 30vh;
+
+    background-image: url("/images-HomePage/HomePage-Rising-Sea-Sea.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 150vh;
+    background-attachment: fixed;
+
+    filter: opacity(85%);
+}
+
+div.HomePage-Rising-Sea {
+
+    display: block;
+    position: absolute;
+    top: 539vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-repeat: no-repeat;
+
+    z-index: 2;
+
+}
+
+div.HomePage-Rising-Sea-Banner div.TextBox {
+
+    display: block;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+
+    top: 15%;
+    left: 10%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13vh;
+    color: rgba(93, 249, 252, 0.989);
+    text-shadow: 5px 5px 12px rgba(130, 209, 209, 0.989);
+    text-align: center;
+    align-content: center;
+
+    background-color: rgba(47, 53, 54, 0.821);
+
+}
+
+
+div.HomePage-Rising-Sea div.HomePage-Rising-Sea-Header-Image {
+
+    position: absolute;
+    display: block;
+    left: 12.55vw;
+    top: 3vh;
+    height: 99vh;
+    width: 75vw;
+
+    background-image: url("/images-HomePage/HomePage-Rising-Sea-Intro-Bg.jpg");
+    background-size: 90vw 99vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    filter: contrast(50%) saturate(120%) grayscale(30%) blur(1px) brightness(70%);
+
+    border-style: inset;
+    border-width: 2px;
+    border-color: #f5ecff;
+    border-bottom-style: none;
+}
+
+div.HomePage-Rising-Sea div.HomePage-Rising-Sea-Header-Image-TextBox {
+
+    display: block;
+    position: absolute;
+
+    left: 14.5%;
+    top: 5%;
+
+    height: 80%;
+    width: 28%;
+
+    background-color: rgba(53, 50, 50, 0.759);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: #f5ecff;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    z-index: 2;
+}
+
+div.HomePage-Rising-Sea div.HomePage-Rising-Sea-Header-Image-TextBox2 {
+
+    display: block;
+    position: absolute;
+
+    right: 14.5%;
+    top: 5%;
+
+    height: 80%;
+    width: 40%;
+
+    background-color: rgba(53, 50, 50, 0.759);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: #f5ecff;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    z-index: 2;
+}
+
+/*
+=========================================
+Rising-Sea2 (Keyword: Rising-Sea2-Layout)
+=========================================
+*/
+
+div.HomePage-Rising-Sea2 {
+
+    display: block;
+    position: absolute;
+    top: 628.5vh;
+    left: 0vw;
+
+    height: 150vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-repeat: no-repeat;
+
+    z-index: 2;
+
+}
+
+div.HomePage-Rising-Sea2 div.HomePage-Rising-Sea2-TextBox {
+
+    position: relative;
+    display: block;
+    left: 12.5vw;
+    top: 1vh;
+    width: 75vw;
+
+    color: #f5ecff;
+
+    z-index: 2;
+
+}
+
+div.HomePage-Rising-Sea2 div.HomePage-Rising-Sea2-NestedTextBox {
+
+    position: relative;
+    display: block;
+    left: 2vw;
+    height: 70%;
+    width: 60%;
+
+    color: #f5ecff;
+
+    overflow: auto;
+
+    z-index: 2;
+}
+
+/* 
+=========================================
+        Health (Keyword: Health-Layout)
+=========================================
+*/
+
+div.HomePage-Health {
+
+    display: block;
+    position: absolute;
+    top: 778.5vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.HomePage-Health-Bg {
+
+    display: block;
+    position: absolute;
+
+    height: 80vh;
+    width: 90vw;
+
+    left: 5vw;
+    top: 10vh;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+    box-shadow: 2px 2px 10px gray;
+
+    background-image: url("/images-HomePage/HomePage-Health-BG.jpg");
+    background-attachment: fixed;
+    background-size: 80vh 90vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    filter: opacity(75%) brightness(50%);
+
+}
+
+div.HomePage-Health-Bg-TextBox {
+
+    position: absolute;
+    display: block;
+    width: 48.5vw;
+    height: 75vh;
+
+    top: 12.5%;
+    left: 7%;
+
+}
+
+/*
+===================================
+Health2 (Keyword: Health2-Layout)
+===================================
+*/
+
+div.HomePage-Health2 {
+
+    display: block;
+    position: absolute;
+    top: 878.5vh;
+    left: 0vw;
+
+    height: 340vh;
+    width: 100vw;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: 1;
+
+}
+
+div.HomePage-Health2 div.HomePage-Health2-TextBox {
+
+    position: relative;
+    display: grid;
+
+    top: 2.5vh;
+    left: 12.5vw;
+
+    height: 95%;
+    width: 75vw;
+
+    color: #f5ecff;
+
+    justify-content: space-between;
+
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 5% 18% 16% 16% 23% 17%;
+
+    grid-gap: 1%;
+
+}
+
+div.HomePage-Health2-TextBox div.item1 {
+
+    grid-column: span 2;
+    text-align: center;
+
+}
+
+div.HomePage-Health2-TextBox div.column1-row2 {
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+}
+
+div.HomePage-Health2-TextBox div.column1-row3 {
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+
+}
+
+div.HomePage-Health2-TextBox div.column1-row4 {
+
+    align-content: center;
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+
+
+}
+
+div.HomePage-Health2-TextBox div.column1-row5 {
+
+    align-content: center;
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+
+
+}
+
+div.HomePage-Health2-TextBox div.column1-row6 {
+
+    align-content: center;
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+
+}
+
+div.HomePage-Health2-TextBox div.column2-row2 {
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+div.HomePage-Health2-TextBox div.column2-row3 {
+
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+div.HomePage-Health2-TextBox div.column2-row4 {
+
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+div.HomePage-Health2-TextBox div.column2-row5 {
+
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+div.HomePage-Health2-TextBox div.column2-row6 {
+
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+/*
+=========================================
+    Economy (Keyword: Economy-Layout)
+=========================================
+*/
+
+div.HomePage-Economy {
+
+    display: block;
+    position: absolute;
+    top: 1218.5vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.HomePage-Economy div.HomePage-Economy-Bg {
+
+    display: block;
+    position: absolute;
+
+    left: 5%;
+    top: 2.5%;
+
+    width: 90%;
+    height: 95%;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+    box-shadow: 2px 2px 20px whitesmoke;
+
+    background-image: url("/images-HomePage/HomePage-Economy-BG.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    filter: blur(4px) opacity(80%) brightness(70%);
+
+}
+
+div.HomePage-Economy div.HomePage-Economy-Bg-TextBox {
+
+    display: block;
+    position: absolute;
+
+    left: 7%;
+    top: 2.5%;
+
+    width: 65%;
+    height: 95%;
+
+    color: white;
+
+    overflow: hidden;
+
+}
+
+div.HomePage-Economy div.HomePage-Economy-Bg-ImageBox {
+
+    display: block;
+    position: absolute;
+
+    top: 20%;
+    right: 10%;
+
+    height: 32%;
+    width: 15%;
+}
+
+/*
+===================================
+Economy2 (Keyword: Economy2-Layout)
+===================================
+*/
+
+div.HomePage-Economy2 {
+
+    display: block;
+    position: absolute; 
+
+    top: 1318.5vh;
+    left: 0vw;
+
+    height: 190vh;
+    width: 100vw;
+
+    background-image: linear-gradient(180deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.HomePage-Economy2 div.HomePage-Economy2-TextBox {
+
+    position: relative;
+    display: grid;
+
+    left: 12.5vw;
+    top: 7vh;
+    
+    height: 95%;
+    width: 75vw;
+
+    color: #f5ecff;
+
+    grid-template-rows: 5% 31% 31% 31%;
+    grid-template-columns: 30% 65%;
+
+    justify-content: space-between;
+
+    overflow: auto;
+}
+
+div.HomePage-Economy2-TextBox div.column1-row0 {
+
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+div.HomePage-Economy2-TextBox div.column1-row1 {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+div.HomePage-Economy2-TextBox div.column1-row2 {
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+div.HomePage-Economy2-TextBox div.column1-row3 {
+
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+div.HomePage-Economy2-TextBox div.column2-row1 {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+div.HomePage-Economy2-TextBox div.column2-row2 {
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+div.HomePage-Economy2-TextBox div.column2-row3 {
+
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+/*
+============================================================
+    Introduction To SDG (Keyword: Introduction-SDG-Layout)
+=============================================================
+*/
+
+div.HomePage-Introduction-Of-SDG-BG {
+
+    display: block;
+    position: absolute;
+
+    top: 1508.5vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: 
+    radial-gradient(circle,rgba(0, 0, 0, 0.223) 30%, rgba(0, 0, 0, 0.412) 60%, rgba(0, 0, 0, 0.642) 100%),
+    url("/images-HomePage/HomePage-Introduction-Of-SDG-BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(3px) brightness(70%);
+
+}
+
+div.HomePage-Introduction-Of-SDG-BG-ContentBox {
+
+    display: block;
+    position: absolute;
+    top: 1518.5vh;
+    left: 0vw;
+
+    height: calc(100vh - 55px);
+    width: 100vw;
+
+}
+
+div.HomePage-Introduction-Of-SDG-BG-ContentBox div.TextBox {
+
+    display: block;
+    position: absolute;
+
+    top: 10vh;
+    left: 37vw;
+
+    width: 30vw;
+    height: 30vh;
+
+
+    border-bottom-style: solid;
+    border-color: #f5ecff;
+    border-width: 2px;
+
+}
+
+div.HomePage-Introduction-Of-SDG-BG-ContentBox div.TextBox2 {
+
+    display: block;
+    position: absolute;
+
+    top: 40vh;
+    left: 37vw;
+
+    width: 30vw;
+    height: 25vh;
+
+}
+
+/*
+===============================================================
+    Introduction To SDG 2 (Keyword: Introduction-SDG2-Layout)
+===============================================================
+*/
+
+div.HomePage-Introduction-Of-SDG2 {
+
+    display: block;
+    position: absolute;
+
+    top: calc(1615vh - 55px);
+    left: 0vw;
+
+    height: calc(176.5vh - 55px);
+    width: 100vw;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+}
+
+div.HomePage-Introduction-Of-SDG2 div.HomePage-Introduction-Of-SDG2-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    left: 5vw;
+    top: 10vh;
+
+    height: 130vh;
+    width: 90vw;
+
+    grid-template-columns: 35% 60%;
+    grid-template-rows: 30% 30% 30%;
+    align-content: space-between;
+    justify-content: space-between;
+
+    outline-style: solid;
+    outline-color: #c1c0c5;
+    outline-width: 4px;
+
+    box-shadow: 2px 2px 15px white;
+
+    background-color: rgb(44, 78, 4);
+    padding: 10px;
+
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column1-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    border-bottom: #f5ecff;
+    border-bottom-style: solid;
+
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column1-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+
+    border-bottom: #f5ecff;
+    border-bottom-style: solid;
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column1-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column2-row1 {
+
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column2-row2 {
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+}
+
+div.HomePage-Introduction-Of-SDG2-TextBox div.column2-row3 {
+
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+}
+
+
+/*
+====================================================================
+     Implementation of SDGs (Keyword: Implementation-SDG-Layout)
+====================================================================
+*/
+
+div.HomePage-Implementation-Of-SDG {
+
+    display: block;
+    position: absolute;
+
+    top: 1777vh;
+    left: 0vw;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+div.HomePage-Implementation-Of-SDG-BG {
+
+    display: block;
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+
+    height: 100%;
+    width: 100%;
+
+    background-image:  linear-gradient(90deg, rgb(32, 31, 31), rgba(50, 48, 48, 0.704),rgba(124, 118, 118, 0.5)),
+    url("/images-HomePage/HomePage-Implementation-BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    filter: blur(3px) opacity(100%) brightness(90%);
+}
+
+div.HomePage-Implementation-Of-SDG-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    grid-template-rows: 12% 8% 25% 30%;
+    grid-template-columns: 100% 100% 100% 100%;
+
+    top: 5%;
+    left: 2%;
+
+    height: 90%;
+    width: 40%;
+    align-content: space-between;
+}
+
+div.HomePage-Implementation-Of-SDG-TextBox div.row1 {
+
+    grid-row: 1/2;
+    color:#f5ecff;
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-shadow: 5px 5px 20px black;
+
+}
+
+div.HomePage-Implementation-Of-SDG-TextBox div.row2 {
+
+    grid-row: 2/3;
+    color:#3dc7f1;
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    align-self: center;
+
+    text-shadow: 3px 3px 20px black;
+
+
+}
+
+div.HomePage-Implementation-Of-SDG-TextBox div.row3 {
+
+    grid-row: 3/4;
+    color:#53efb6;
+    font-size: 9.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-shadow: 6px 6px 20px black;
+
+
+}
+
+div.HomePage-Implementation-Of-SDG-TextBox div.row4 {
+
+    grid-row: 4/5;
+    color:#3dc7f1;
+    font-size: 5.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+
+    text-shadow: 8px 8px 20px black;
+
+}
+
+/*
+====================================================================
+     Implementation of SDGs 2 (Keyword: Implementation-SDG2-Layout)
+====================================================================
+*/
+
+div.HomePage-Implementation-Of-SDG2 {
+
+    display: block;
+    position: absolute;
+
+    height: 540vh;
+    width: 100vw;
+
+    top: 1878vh;
+    left: 0vw;
+
+    background-image: linear-gradient(360deg,rgb(4, 2, 54),rgb(29, 27, 27));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.HomePage-Implementation-Of-SDG2 div.HomePage-Implementation-Of-SDG2-TextBox {
+
+    display: grid;
+    position: absolute;
+
+    height: 120vh;
+    width: 75vw;
+
+    top: 20vh;
+    left: 12.5vw;
+
+    color: #f5ecff;
+
+    justify-content: space-between;
+
+    grid-template-columns: 30% 65%;
+    grid-template-rows: 30% 30% 30%;
+
+    grid-gap: 3.3%;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column1-row1 {
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column1-row2 {
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column1-row3 {
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column2-row1 {
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column2-row2 {
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox div.column2-row3 {
+
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox img {
+
+    display: block;
+    position: relative;
+
+    top: 15%;
+
+    height: 70%;
+    width: 80%;
+
+    left: 10%;
+
+    border-style: solid;
+    border-color: #53efb6;
+    border-width: 3px;
+    
+    box-shadow: 2px 2px 15px rgb(40, 120, 36);
+}
+
+div.HomePage-Implementation-Of-SDG2 div.HomePage-Implementation-Of-SDG2-TextBox2 {
+
+    display: grid;
+    position: absolute;
+
+    height: 320vh;
+    width: 75vw;
+
+    top: 180vh;
+    left: 12.5vw;
+
+    color: #f5ecff;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 30% 25% 35%;
+
+    grid-gap: 0.1%;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column1-row1 {
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column1-row2 {
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column1-row3 {
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column2-row1 {
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column2-row2 {
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column2-row3 {
+
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+div.HomePage-Implementation-Of-SDG2-TextBox2 div.column2-row4 {
+
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+footer {
+
+    display: grid;
+    position: absolute;
+
+    height: 70vh;
+    width: 100vw;
+
+    top: 2409.5vh;
+    left: 0vw;
+
+    background-image: linear-gradient(180deg, rgb(0,0,0),rgb(22, 20, 20), rgb(32, 31, 31));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-top-color: #3dc7f1;
+    border-top-style: ridge;
+    border-width: 4px;
+
+    color: #f5ecff;
+
+    grid-template-rows: 35% 60%;
+    grid-template-columns: 30% 30% 30%;
+
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+footer div.column1-row1 {
+
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    border-bottom-style: ridge;
+    border-width: 2px;
+    border-bottom-color: #f5ecff;
+
+    overflow: auto;
+
+}
+
+footer div.column1-row2 {
+
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    overflow: auto;
+
+}
+footer div.column2-row2 {
+
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    overflow: auto;
+
+}
+
+footer div.column3-row2 {
+
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+    overflow: auto;
+
+}
+
