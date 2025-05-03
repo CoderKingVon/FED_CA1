@@ -99,7 +99,7 @@ div.About-Landing-Page-BG {
     width: 100%;
     height: 100%;
 
-    background-image: linear-gradient(90deg, rgba(59, 57, 57, 0.583),rgba(46, 44, 44, 0.737), rgba(67, 61, 61, 0.441)), url("images-About/About-Landing-Page-BG.png");
+    background-image: linear-gradient(90deg, rgba(59, 57, 57, 0.583),rgba(46, 44, 44, 0.737), rgba(67, 61, 61, 0.441)), url("/images-About/About-Landing-Page-BG.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -419,7 +419,7 @@ div.About-My-Interests-Container div.column1-row1 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 
-    background-image: url("images-About/About-My-Interests-Programming.jpeg");
+    background-image: url("/images-About/About-My-Interests-Programming.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -431,7 +431,7 @@ div.About-My-Interests-Container div.column2-row1 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
 
-    background-image: url("images-About/About-My-Interests-Gaming.webp");
+    background-image: url("/images-About/About-My-Interests-Gaming.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -442,7 +442,7 @@ div.About-My-Interests-Container div.column3-row1 {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
 
-    background-image: url("images-About/About-My-Interests-Physics.jpg");
+    background-image: url("/images-About/About-My-Interests-Physics.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -453,7 +453,7 @@ div.About-My-Interests-Container div.column1-row2 {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
 
-    background-image: url("images-About/About-My-Interests-Volunteering.jpeg");
+    background-image: url("/images-About/About-My-Interests-Volunteering.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -473,7 +473,7 @@ div.About-My-Interests-Container div.column3-row2 {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
 
-    background-image: url("images-About/About-My-Interests-Chemistry.jpg");
+    background-image: url("/images-About/About-My-Interests-Chemistry.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -484,7 +484,7 @@ div.About-My-Interests-Container div.column1-row3 {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
 
-    background-image: url("images-About/About-My-Interests-Chess.jpg");
+    background-image: url("/images-About/About-My-Interests-Chess.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -496,7 +496,7 @@ div.About-My-Interests-Container div.column2-row3 {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
 
-    background-image: url("images-About/About-My-Interests-Cooking.jpg");
+    background-image: url("/images-About/About-My-Interests-Cooking.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -507,7 +507,7 @@ div.About-My-Interests-Container div.column3-row3 {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
 
-    background-image: url("images-About/About-My-Interests-Writing.png");
+    background-image: url("/images-About/About-My-Interests-Writing.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -632,7 +632,7 @@ div.About-My-Interests-Container-TextBox div.column2-row2 {
     border-width: 2px;
     border-color: #f5ecff;
 
-    background-image: url("images-About/About-My-Interests-Thinking-Person.png");
+    background-image: url("/images-About/About-My-Interests-Thinking-Person.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -742,7 +742,7 @@ div.About-My-Interests2 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.798), rgba(35, 34, 34, 0.339)),
-    url("images-About/About-My-Interests-Programming-BG.jpg");
+    url("/images-About/About-My-Interests-Programming-BG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -767,7 +767,7 @@ div.About-My-Interests2 div.Programming-Image {
     border-style: solid;
     border-color: white;
 
-    background-image: url("images-About/About-My-Interests-Programming-Java-Icon.webp");
+    background-image: url("/images-About/About-My-Interests-Programming-Java-Icon.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -814,7 +814,7 @@ div.About-My-Interests3 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Gaming-BG.jpg");
+    url("/images-About/About-My-Interests-Gaming-BG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -865,7 +865,7 @@ div.About-My-Interests4 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Physics-BG.avif");
+    url("/images-About/About-My-Interests-Physics-BG.avif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -916,7 +916,7 @@ div.About-My-Interests5 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Chemistry-BG.jpg");
+    url("/images-About/About-My-Interests-Chemistry-BG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -966,7 +966,7 @@ div.About-My-Interests6 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Writing-BG.jpg");
+    url("/images-About/About-My-Interests-Writing-BG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1017,7 +1017,7 @@ div.About-My-Interests7 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Cooking-BG.webp");
+    url("/images-About/About-My-Interests-Cooking-BG.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1068,7 +1068,7 @@ div.About-My-Interests8 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Chess-BG.webp");
+    url("/images-About/About-My-Interests-Chess-BG.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1120,7 +1120,7 @@ div.About-My-Interests9 {
 
     background-image: 
     linear-gradient(90deg, rgba(29, 27, 27, 0.61), rgba(35, 34, 34, 0.393)),
-    url("images-About/About-My-Interests-Volunteering-BG.webp");
+    url("/images-About/About-My-Interests-Volunteering-BG.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
