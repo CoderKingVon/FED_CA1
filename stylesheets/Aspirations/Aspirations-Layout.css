@@ -88,7 +88,7 @@ div.Aspirations-Landing-Page-BG {
 
     background-image: 
     linear-gradient(90deg, rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.569)),
-    url("images-Aspirations/Aspirations-Landing-Page-Bg.jpg");
+    url("/images-Aspirations/Aspirations-Landing-Page-Bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

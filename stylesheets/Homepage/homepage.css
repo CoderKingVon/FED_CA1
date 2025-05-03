@@ -42,7 +42,7 @@ div.Hamburger > button.NavBar-Top-Hamburger {
 
     border-style: none;
 
-    background-image: url("images-HomePage/hamburger.png");
+    background-image: url("/images-HomePage/hamburger.png");
     background-position: center;
 }
 
@@ -98,7 +98,7 @@ div.Hamburger nav.NavBar-Top-List span.Home {
 
 div.Hamburger:hover > button.NavBar-Top-Hamburger {
 
-    background-image: url("images-HomePage/down.png");
+    background-image: url("/images-HomePage/down.png");
     background-repeat: no-repeat;
 
 }
@@ -172,7 +172,7 @@ div.UN-Image-Link {
     width: 16vw;
 
     overflow: hidden;
-    background-image: url("images-HomePage/UN-Logo.webp");
+    background-image: url("/images-HomePage/UN-Logo.webp");
     background-size: 65px 45px;
     background-repeat: no-repeat;
     background-position: 0px 3px;
@@ -209,7 +209,7 @@ div.SDG-Image-Link {
     height: 55px;
     width: 8vw;
 
-    background-image: url("images-HomePage/sdg.webp");
+    background-image: url("/images-HomePage/sdg.webp");
     background-size: 45px 45px;
     background-repeat: no-repeat;
     background-position: 0px 5px;
@@ -258,7 +258,7 @@ div.Rotating-Earth {
     top: 7.5px;
     left: 43vw;
 
-    background-image: url("images-HomePage/earth.png");
+    background-image: url("/images-HomePage/earth.png");
     background-repeat: no-repeat;
     filter: opacity(80%);
     background-size: 70px 40px;
@@ -371,7 +371,7 @@ div.Landing-Page-Logo {
     max-height: 500px;
     height: 100%;
 
-    background-image: url("images-HomePage/SDG-logo.png");
+    background-image: url("/images-HomePage/SDG-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 500px 500px;
@@ -395,7 +395,7 @@ div.Landing-Page-Logo div.Earth {
     width: 266.4px;
     height: 150px;
 
-    background-image: url("images-HomePage/earth.png");
+    background-image: url("/images-HomePage/earth.png");
     background-size: 266.4px 150px;
 
     transform: scaleX(1.3) scaleY(1.3);
@@ -456,7 +456,7 @@ div.Landing-Page div.SDG-Goal13 {
     border-color: #f5ecff;
     border-width: 2px;
 
-    background-image: url("images-HomePage/SDG-GOAL13.png");
+    background-image: url("/images-HomePage/SDG-GOAL13.png");
     background-repeat: no-repeat;
     background-size: 8vw 17vh;
 
@@ -623,7 +623,7 @@ div.HomePage-Introduction-Page div.SDG-Implementation span.SDG {
     padding-left: 14px;
     border-color: rgb(42, 42, 42);
 
-    background-image: url("images-HomePage/SDG-Logo.png");
+    background-image: url("/images-HomePage/SDG-Logo.png");
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: center;
@@ -708,7 +708,7 @@ div.HomePage-Introduction-Page div.SDG-Introduction span.SDG {
     padding-left: 14px;
     border-color: rgb(42, 42, 42);
 
-    background-image: url("images-HomePage/SDG-Logo.png");
+    background-image: url("/images-HomePage/SDG-Logo.png");
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: center;
@@ -2249,7 +2249,7 @@ div.HomePage-Implementation-Of-SDG2 h1.heading2 {
 
     background-image: 
     linear-gradient(90deg, rgba(56, 54, 54, 0.847), rgba(67, 65, 65, 0.118),rgba(56, 54, 54, 0.847)),
-    url("images-HomePage/HomePage-Implementation-Examples.jpeg");
+    url("/images-HomePage/HomePage-Implementation-Examples.jpeg");
     background-size: cover;
     background-position: center;
 

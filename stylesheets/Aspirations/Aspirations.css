@@ -31,7 +31,7 @@ div.Hamburger > button.NavBar-Top-Hamburger {
 
     border-style: none;
 
-    background-image: url("images-About/hamburger.png");
+    background-image: url("/images-About/hamburger.png");
     background-position: center;
 }
 
@@ -69,7 +69,7 @@ div.Hamburger nav.NavBar-Top-List div.NavBar-Image {
 
     background-image: 
     linear-gradient(90deg, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.381)),
-    url("images-Aspirations/Aspirations-SideBar-My-Goals.avif");
+    url("/images-Aspirations/Aspirations-SideBar-My-Goals.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 14vw 25vh;
@@ -104,7 +104,7 @@ div.Hamburger nav.NavBar-Top-List div.NavBar-Image h1 {
 
 div.Hamburger:hover > button.NavBar-Top-Hamburger {
 
-    background-image: url("images-About/down.png");
+    background-image: url("/images-About/down.png");
     background-repeat: no-repeat;
 
 }
@@ -179,7 +179,7 @@ div.UN-Image-Link {
 
     overflow: hidden;
     
-    background-image: url("images-About/UN-Logo.webp");
+    background-image: url("/images-About/UN-Logo.webp");
     background-size: 65px 45px;
     background-repeat: no-repeat;
     background-position: 0px 3px;
@@ -218,7 +218,7 @@ div.SDG-Image-Link {
     height: 55px;
     width: 8vw;
 
-    background-image: url("images-About/sdg.webp");
+    background-image: url("/images-About/sdg.webp");
     background-size: 45px 45px;
     background-repeat: no-repeat;
     background-position: 0px 5px;
@@ -268,7 +268,7 @@ div.Rotating-Earth {
     top: 7.5px;
     left: 43vw;
 
-    background-image: url("images-About/earth.png");
+    background-image: url("/images-About/earth.png");
     background-repeat: no-repeat;
     filter: opacity(80%);
     background-size: 70px 40px;
