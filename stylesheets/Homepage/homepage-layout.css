@@ -159,7 +159,7 @@ div.HomePage-Introduction-Page div.HomePage-Introduction-Page-BG {
 
     background-image:
     linear-gradient(90deg, rgba(46, 45, 45, 0.85), rgba(124, 118, 118, 0.5)),
-    url("./images-HomePage/HomePage-Introduction-Page-BG.jpg");
+    url("../images-HomePage/HomePage-Introduction-Page-BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -369,7 +369,7 @@ div.HomePage-Summary div.HomePage-Summary-Box4 {
     border-color: #00c4e2a7;
     border-width: 2px;
 
-    background-image: url("images-HomePage/HomePage-Summary-Global-Warming.jpeg");
+    background-image: url("../images-HomePage/HomePage-Summary-Global-Warming.jpeg");
     background-repeat: no-repeat;
     background-position: 1vw 6vh;
     background-size: 18vw 21vh;
